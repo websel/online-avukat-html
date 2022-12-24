@@ -1,0 +1,11 @@
+<svg data-name="Group 80756" xmlns="http://www.w3.org/2000/svg" width="104.91" height="104.91" viewBox="0 0 104.91 104.91">
+    <defs>
+        <clipPath id="fur3mpvnfa">
+            <path data-name="Rectangle 12000" style="fill:none" d="M0 0h104.91v104.91H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="Group 80755" style="clip-path:url(#fur3mpvnfa)">
+        <path data-name="Path 60473" d="M52.455 0a52.455 52.455 0 1 0 52.455 52.455A52.515 52.515 0 0 0 52.455 0m0 104.467a52.011 52.011 0 1 1 52.011-52.011 52.07 52.07 0 0 1-52.011 52.011" style="fill:#00b897"/>
+        <path data-name="Path 60474" d="m60.374 57.851-17.167 17.5L76.5 120.174l33.289-44.821-17.168-17.5zm15.013 39.032h-5.538l-7.423-20.321h12.961zm2.218 0V76.562h14.284l-8.073 20.321zm-3.691-22.54H47.3l13.527-13.786zM63.422 60.069H89.57L76.5 73.842zm-3.358 16.493 7.423 20.322h-5.526L46.867 76.562zM86.2 96.883l8.073-20.322h11.85L91.032 96.883zm-7.125-22.54 13.09-13.786 13.523 13.787z" transform="translate(-24.041 -32.189)" style="fill:#00b897"/>
+    </g>
+</svg>

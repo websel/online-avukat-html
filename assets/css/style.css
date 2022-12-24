@@ -1,0 +1,58 @@
+*{padding:0;margin:0;}
+a{text-decoration: none;}
+.topbar{background-color: #E6F1F6;padding:5px;}
+.topbar-left svg{height: 0.7rem;padding-bottom: 3px; padding-left: 5px}
+ul.sehirliste li{width: 43%;margin-right:5%;margin-bottom:10px;}
+input#phone{padding:6px;}
+.btn-lacivert{background-color: #184E77;}
+.btn-lacivert:hover{background-color: #326c9c;}
+.iti{display: block !important;}
+#loginModal .modal-body a{color:#184E77}
+#user-icon{display: none;}
+
+.card .card-image img{border-radius: 50%;}
+#carouselAvukatlar .card h5{font-size:1rem !important; text-align: center; font-weight: 700;}
+
+.online-border{border:solid 3px rgb(17, 143, 23)}
+.mesgul-border{border:solid 3px rgb(233, 27, 27)}
+.durum-text{background-color: #fff; border-radius: 16px;position: absolute; bottom:-10px;left:38%;padding:4px 8px;font-size:.75rem;font-weight: bold;}
+
+.card-unvan{font-size: .90rem; color:rgb(74,74,74);text-align: center;margin-top:10px;}
+.card-stats{font-size: .90rem;}
+.card-faaliyet ul{list-style: none;padding-left:1rem !important}
+.card-faaliyet ul li{background-color: rgb(230,228,228);padding:3px 16px;border-radius: 10px; display: inline-block;margin-top:8px;}
+.card-faaliyet ul li a{color:rgb(87,87,87); font-size: .90rem;}
+
+/* navbar classları */
+ul.navbar-nav li a{color:#000 !important;}
+ul.navbar-nav li:hover{background-color: rgb(24 78 119);border-radius: 10px;}
+ul.navbar-nav li:hover a{color:white !important;}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{background-color: #184E77; border-radius: 5px;}
+.carousel-control-prev{left: -100px !important}
+.carousel-control-next{right: -100px !important}
+.mt-100{margin-top:100px}
+.mt-75{margin-top:75px}
+.mt-50{margin-top:50px}
+
+.danisman-secimi{background: linear-gradient(#e6f3ef,#c2e6dc);padding: 50px 0}
+footer{background-color: #34A0A4;padding: 50px 0;color:#fff;}
+footer a, .footer-bottom a{color:#fff !important}
+footer ul{list-style-type: none;padding-left: 5px;}
+footer ul li{margin-top:6px;}
+.footer-bottom{background-color: #2F969C;padding: 8px 0;color:#fff}
+footer .btn-outline-light:hover{color:#000 !important}
+
+/* media queries */
+@media screen and (min-width:992px) and (max-width:1199px){
+    #user-icon{display: inline-block;padding-top: 2px;padding-bottom: 2px;border:solid 1px #6c757d}
+    #user-icon svg{color:#6c757d !important;}
+    #giris-text{display: none;}
+    .btn-nav-sag{--bs-btn-font-size: .75rem;--bs-btn-padding-x: .25rem !important}
+    .carousel-control-prev{left: -80px !important}
+    .carousel-control-next{right: -80px !important}
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .carousel-control-prev{left: -50px !important}
+.carousel-control-next{right: -50px !important}
+}
