@@ -207,7 +207,7 @@
             </div>
             <div class="col-12 col-md-6">
               <h5 class="card-title fw-bold">Serkan Kartal</h5>
-              <div class="avukat-unvan">Ortak Avukat</div>
+              <div class="avukat-unvan">Ortak / Avukat - Arabulucu</div>
               <div class="avukat-aciklama">2000 yılında Marmara Üniversitesi Hukuk Fakültesi'nden mezun olan Avukat Serkan Kartal,  İstanbul Barosuna kayıtlı avukat olarak Kulaçoğlu Hukuk Bürosu'nda Yönetici – Ortak Avukat olarak çalışmalarına devam etmektedir.</div>
               <div class="avukat-faaliyet mt-3">
                 <ul>
@@ -557,7 +557,6 @@
           var avukatlar = document.querySelectorAll(".avukat-satir");
 
           var key = event.keyCode || event.charCode;
-
           if( key == 8 || key == 46 )
           {
             avukatlar.forEach(av => {
@@ -570,7 +569,7 @@
             var keys = av.getAttribute("data-keywords");
             sayac++;
             document.getElementById("sonuc").innerHTML = "";
-            if(!keys.includes(kelime)){
+            if(!keys.includes(kelime.toLocaleLowerCase())){
               av.classList.add("gizle");
               sayac--;
             }
