@@ -5,544 +5,507 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HiDoctor - Online Avukat</title>
+    <title>Online Avukat - Kulaçoğlu Hukuk Bürosu</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style3.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
-        rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="assets/css/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="assets/css/intlPhoneCodes.min.css" />
-        <!-- <link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css"/> -->
-    <link rel="icon" href="assets/img/favicon.png" type="image/png" />
-    <meta name="description" content="HiDoctor - Online Avukat." />
-    <!-- En fazla 155 karakter olacak. min 70 karakter olsun. Düzgün, anlamlı bir cümle. Her bir sayfada farklı olacak. -->
+    <link rel="icon" href="assets/img/cropped-favicon-1-192x192.png" type="image/png" />
+    <meta name="description" content=" Kulaçoğlu Hukuk Bürosu bünyasinde konusunda uzman avukatlarla Online Avukat görüşmesi yaparak hızlıca hizmet alın." />
 </head>
 
 <body>
-    <header>
-        <div class="topbar">
-            <div class="container d-flex justify-content-between">
-                <div class="topbar-left">  <!-- -----  TOPBAR - SOL TARAF ----- -->
-                    Sen De Modunu Yakala Diye İlk Avukat Görüşmesinin <span class="fs-5 fw-bold text-success">%25</span>’i Bizden Hediye! <i class="fa-solid fa-chevron-right"></i>
-                </div>
-
-                <div class="topbar-right"> <!-- -----  TOPBAR - SAĞ TARAF ----- -->
-                    <div class="dropdown d-inline-block pe-3">
-                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="selectedLang">
-                            Türkçe - TR
-                        </button>
-                        <ul class="dropdown-menu" id="langBtn">
-                            <li><a class="dropdown-item" href="#">Türkçe - TR</a></li>
-                            <li><a class="dropdown-item" href="#">English - EN</a></li>
-                            <li><a class="dropdown-item" href="#">Deutsch - DE</a></li>
-                            <li><a class="dropdown-item" href="#">Espanol - ES</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="topbar-phone fw-bold d-inline-block">
-                        <i class="fa-solid fa-phone pe-2"></i> 0589 985 00 00
-                    </div>
-                </div>
-            </div>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img width="134" height="60" src="assets/img/Kulacoglu-Hukuk-Beyaz-Logo.png" alt="Kulaçoğlu Hukuk Bürosu Logo" aria-labelledby="Kulaçoğlu Hukuk Bürosu Logo" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#nasil-calisir">Nasıl Çalışır</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#avukatlar">Avukatlar</a>
+            </li>
+            <li class="nav-item">
+              <a href="#sss" class="nav-link">Sık Sorulan Sorular</a>
+            </li>
+          </ul>
         </div>
-    
-        <nav class="navbar navbar-expand-lg bg-light border-bottom">
-            <div class="container">
-            <a class="navbar-brand" href="index.html">
-                    <img width="184" height="45" src="assets/img/logo.png" alt="HiDoctor Logo" aria-labelledby="HiDoctor Logo" />
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-4">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Hizmetler
-                        </a>
-                        <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Görüntülü Görüşme</a></li>
-                        <li><a class="dropdown-item" href="#">Sesli Görüşme</a></li>
-                        <li><a class="dropdown-item" href="#">Chat ile Görüşme</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Kurumsal</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Hakkımızda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">İletişim</a>
-                    </li>
-                </ul>
-
-                <a href="#" class="btn btn-outline-secondary me-2 rounded-4 btn-sm btn-nav-sag">Danışma Başvuru Formu</a>
-                <a href="#" id="locationbtn" class="btn btn-outline-secondary btn-sm me-2 rounded-4 btn-nav-sag" data-bs-toggle="modal" data-bs-target="#locationModal"><i class="fa-solid fa-location-dot"></i> Istanbul</a>
-                <a id="giris-text" href="#" class="btn btn-secondary btn-sm rounded-4 btn-nav-sag" data-bs-toggle="modal" data-bs-target="#loginModal">Giriş Yap/Kayıt Ol</a>
-                <a href="#" id="user-icon" class="px-3 rounded-4" data-bs-toggle="modal" data-bs-target="#loginModal"><i class="fa-solid fa-user"></i></a>               
-            </div>
-            </div>
-        </nav>
+        <a href="#" class="giris-link">Giriş Yap <i class="fa-solid fa-right-to-bracket ps-3"></i></a>
+      </div>
+    </nav>
+    <header>
+      <div class="container position-relative yuk-100">
+        <div class="online-logo">
+          <img src="assets/img/online-kulacoglu-slider-logo.png" width="80%" alt="Görüntülü Hukuki Danışmanlık Sistemi logo" />
+        </div>
+        <h1>Online Hukuki Danışmanlık Sistemi</h1>
+        <div class="main-icons mt-2">
+          <img src="assets/img/desktop-kulacoglu.png" width="48" alt="Görüntülü Hukuki danışmanlık Masaüstü bilgisayar" />
+          <img src="assets/img/smartphone-kulacoglu.png" width="48" alt="Görüntülü Hukuki danışmanlık Masaüstü bilgisayar" class="ps-3" />
+        </div>
+        
+        <div class="header-alt-cta">
+          <a href="#">Randevu Oluştur</a>
+          <!-- <div class="calendar">
+            <img src="assets/img/Circle-icons-calendar.svg" alt="Randevu Oluştur" width="64" />
+          </div>
+           <div class="text">Hemen<br />Randevu Oluştur</div> -->
+        </div>
+        <div class="header-sag" data-aos="fade-left">
+          <img src="assets/img/head-scr-shot3.png" alt="Kulaçoğlu Hukuk Bürosu Online Danışmanlık" width="752" class="img-fluid" />
+        </div>
+      </div>
+      <!-- <div class="header-sol-desen"></div> -->
     </header>
 
 
     <!-- CONTENT -->
-<div class="content">
+  <div class="position-relative">
     <div class="container">
-        <div class="slider my-4">
-                <img width="100%" class="img-fluid rounded-4" decoding="async" loading="lazy" src="assets/uploads/slider-1.jpg" alt="HiDoctor Banner" aria-labelledby="HiDoctor Banner" />
-        </div>
-      <section class="avukatlar mt-100">
-        <h1 class="text-center">AVUKATLARIMIZ</h1>
-        <div id="carouselAvukatlar" class="carousel slide mt-50" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card">
-                            <div class="card-image text-center position-relative">
-                                <img width="96" height="96" class="online-border" decoding="async" loading="lazy" src="assets/uploads/ahmet-metehan-sivrikaya.png" alt="Avukat Ahmet Metehan Sivrikaya" aria-labelledby="Avukat Ahmet Metehan Sivrikaya" />
-                                <div class="online-text">Çevrimiçi</div>
-                            </div>
-                            <div class="card-body">
-                              <h5 class="card-title">Ahmet Metehan Sivrikaya</h5>
-                              <div class="text-center">
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                              </div>
-                              <div class="card-unvan">Avukat</div>
-                              <div class="card-stats text-center mt-2">
-                                <i class="fa-solid fa-video me-1"></i> 243
-                                <i class="fa-solid fa-phone ms-3 me-1"></i> 111
-                                <i class="fa-solid fa-globe ms-3 me-1"></i> 32
-                              </div>
-                              <div class="card-faaliyet">
-                                <ul>
-                                    <li><a href="#">Depresyon</a></li>
-                                    <li><a href="#">Bağımlılık</a></li>
-                                    <li><a href="#">Kaygı</a></li>
-                                    <li><a href="#">İlişki Sorunları</a></li>
-                                    <li><a href="#">Panik Bozukluk</a></li>
-                                </ul>
-                              </div>
-                              <div class="card-fiyat d-flex justify-content-between">
-                                <div>Minimum Tutar</div>
-                                <div class="fw-bold">
-                                    <span class="text-secondary text-decoration-line-through me-1 fw-normal">165</span>
-                                    ₺ 123,75/Seans
-                                </div>
-                              </div>
-                              <a href="#" class="btn btn-lacivert w-100 mt-5 text-white">Detaylar</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card position-relative">
-                                <img width="96" height="96" class="online-border" decoding="async" loading="lazy" src="assets/uploads/ahmet-metehan-sivrikaya.png" alt="Avukat Ahmet Metehan Sivrikaya" aria-labelledby="Avukat Ahmet Metehan Sivrikaya" />
-                                <div class="online-text">Çevrimiçi</div>
-                            
-                            <div class="card-body">
-                              <h5 class="card-title">Ahmet Metehan Sivrikaya</h5>
-                              <div class="text-center">
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                              </div>
-                              <div class="card-unvan">Avukat</div>
-                              <div class="card-stats text-center mt-2">
-                                <i class="fa-solid fa-video me-1"></i> 243
-                                <i class="fa-solid fa-phone ms-3 me-1"></i> 111
-                                <i class="fa-solid fa-globe ms-3 me-1"></i> 32
-                              </div>
-                              <div class="card-faaliyet">
-                                <ul>
-                                    <li><a href="#">Depresyon</a></li>
-                                    <li><a href="#">Bağımlılık</a></li>
-                                    <li><a href="#">Kaygı</a></li>
-                                    <li><a href="#">İlişki Sorunları</a></li>
-                                    <li><a href="#">Panik Bozukluk</a></li>
-                                </ul>
-                              </div>
-                              <div class="card-fiyat d-flex justify-content-between">
-                                <div>Minimum Tutar</div>
-                                <div class="fw-bold">
-                                    <span class="text-secondary text-decoration-line-through me-1 fw-normal">165</span>
-                                    ₺ 123,75/Seans
-                                </div>
-                              </div>
-                              <a href="#" class="btn btn-lacivert w-100 mt-5 text-white">Detaylar</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card position-relative">
-                                <img width="96" height="96" class="online-border" decoding="async" loading="lazy" src="assets/uploads/ahmet-metehan-sivrikaya.png" alt="Avukat Ahmet Metehan Sivrikaya" aria-labelledby="Avukat Ahmet Metehan Sivrikaya" />
-                                <div class="online-text">Çevrimiçi</div>
-                            
-                            <div class="card-body">
-                              <h5 class="card-title">Ahmet Metehan Sivrikaya</h5>
-                              <div class="text-center">
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                              </div>
-                              <div class="card-unvan">Avukat</div>
-                              <div class="card-stats text-center mt-2">
-                                <i class="fa-solid fa-video me-1"></i> 243
-                                <i class="fa-solid fa-phone ms-3 me-1"></i> 111
-                                <i class="fa-solid fa-globe ms-3 me-1"></i> 32
-                              </div>
-                              <div class="card-faaliyet">
-                                <ul>
-                                    <li><a href="#">Depresyon</a></li>
-                                    <li><a href="#">Bağımlılık</a></li>
-                                    <li><a href="#">Kaygı</a></li>
-                                    <li><a href="#">İlişki Sorunları</a></li>
-                                    <li><a href="#">Panik Bozukluk</a></li>
-                                </ul>
-                              </div>
-                              <div class="card-fiyat d-flex justify-content-between">
-                                <div>Minimum Tutar</div>
-                                <div class="fw-bold">
-                                    <span class="text-secondary text-decoration-line-through me-1 fw-normal">165</span>
-                                    ₺ 123,75/Seans
-                                </div>
-                              </div>
-                              <a href="#" class="btn btn-lacivert w-100 mt-5 text-white">Detaylar</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card position-relative">
-                                <img width="96" height="96" class="online-border" decoding="async" loading="lazy" src="assets/uploads/ahmet-metehan-sivrikaya.png" alt="Avukat Ahmet Metehan Sivrikaya" aria-labelledby="Avukat Ahmet Metehan Sivrikaya" />
-                                <div class="online-text">Çevrimiçi</div>
-                            
-                            <div class="card-body">
-                              <h5 class="card-title">Ahmet Metehan Sivrikaya</h5>
-                              <div class="text-center">
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                              </div>
-                              <div class="card-unvan">Avukat</div>
-                              <div class="card-stats text-center mt-2">
-                                <i class="fa-solid fa-video me-1"></i> 243
-                                <i class="fa-solid fa-phone ms-3 me-1"></i> 111
-                                <i class="fa-solid fa-globe ms-3 me-1"></i> 32
-                              </div>
-                              <div class="card-faaliyet">
-                                <ul>
-                                    <li><a href="#">Depresyon</a></li>
-                                    <li><a href="#">Bağımlılık</a></li>
-                                    <li><a href="#">Kaygı</a></li>
-                                    <li><a href="#">İlişki Sorunları</a></li>
-                                    <li><a href="#">Panik Bozukluk</a></li>
-                                </ul>
-                              </div>
-                              <div class="card-fiyat d-flex justify-content-between">
-                                <div>Minimum Tutar</div>
-                                <div class="fw-bold">
-                                    <span class="text-secondary text-decoration-line-through me-1 fw-normal">165</span>
-                                    ₺ 123,75/Seans
-                                </div>
-                              </div>
-                              <a href="#" class="btn btn-lacivert w-100 mt-5 text-white">Detaylar</a>
-                            </div>
-                          </div>
-                    </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card position-relative">
-                                <img width="96" height="96" class="online-border" decoding="async" loading="lazy" src="assets/uploads/ahmet-metehan-sivrikaya.png" alt="Avukat Ahmet Metehan Sivrikaya" aria-labelledby="Avukat Ahmet Metehan Sivrikaya" />
-                                <div class="online-text">Çevrimiçi</div>
-                            
-                            <div class="card-body">
-                              <h5 class="card-title">Ahmet Metehan Sivrikaya</h5>
-                              <div class="text-center">
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                              </div>
-                              <div class="card-unvan">Avukat</div>
-                              <div class="card-stats text-center mt-2">
-                                <i class="fa-solid fa-video me-1"></i> 243
-                                <i class="fa-solid fa-phone ms-3 me-1"></i> 111
-                                <i class="fa-solid fa-globe ms-3 me-1"></i> 32
-                              </div>
-                              <div class="card-faaliyet">
-                                <ul>
-                                    <li><a href="#">Depresyon</a></li>
-                                    <li><a href="#">Bağımlılık</a></li>
-                                    <li><a href="#">Kaygı</a></li>
-                                    <li><a href="#">İlişki Sorunları</a></li>
-                                    <li><a href="#">Panik Bozukluk</a></li>
-                                </ul>
-                              </div>
-                              <div class="card-fiyat d-flex justify-content-between">
-                                <div>Minimum Tutar</div>
-                                <div class="fw-bold">
-                                    <span class="text-secondary text-decoration-line-through me-1 fw-normal">165</span>
-                                    ₺ 123,75/Seans
-                                </div>
-                              </div>
-                              <a href="#" class="btn btn-lacivert w-100 mt-5 text-white">Detaylar</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card position-relative">
-                                <img width="96" height="96" class="online-border" decoding="async" loading="lazy" src="assets/uploads/ahmet-metehan-sivrikaya.png" alt="Avukat Ahmet Metehan Sivrikaya" aria-labelledby="Avukat Ahmet Metehan Sivrikaya" />
-                                <div class="online-text">Çevrimiçi</div>
-                            
-                            <div class="card-body">
-                              <h5 class="card-title">Ahmet Metehan Sivrikaya</h5>
-                              <div class="text-center">
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                              </div>
-                              <div class="card-unvan">Avukat</div>
-                              <div class="card-stats text-center mt-2">
-                                <i class="fa-solid fa-video me-1"></i> 243
-                                <i class="fa-solid fa-phone ms-3 me-1"></i> 111
-                                <i class="fa-solid fa-globe ms-3 me-1"></i> 32
-                              </div>
-                              <div class="card-faaliyet">
-                                <ul>
-                                    <li><a href="#">Depresyon</a></li>
-                                    <li><a href="#">Bağımlılık</a></li>
-                                    <li><a href="#">Kaygı</a></li>
-                                    <li><a href="#">İlişki Sorunları</a></li>
-                                    <li><a href="#">Panik Bozukluk</a></li>
-                                </ul>
-                              </div>
-                              <div class="card-fiyat d-flex justify-content-between">
-                                <div>Minimum Tutar</div>
-                                <div class="fw-bold">
-                                    <span class="text-secondary text-decoration-line-through me-1 fw-normal">165</span>
-                                    ₺ 123,75/Seans
-                                </div>
-                              </div>
-                              <a href="#" class="btn btn-lacivert w-100 mt-5 text-white">Detaylar</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card position-relative">
-                                <img width="96" height="96" class="online-border" decoding="async" loading="lazy" src="assets/uploads/ahmet-metehan-sivrikaya.png" alt="Avukat Ahmet Metehan Sivrikaya" aria-labelledby="Avukat Ahmet Metehan Sivrikaya" />
-                                <div class="online-text">Çevrimiçi</div>
-                            
-                            <div class="card-body">
-                              <h5 class="card-title">Ahmet Metehan Sivrikaya</h5>
-                              <div class="text-center">
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                              </div>
-                              <div class="card-unvan">Avukat</div>
-                              <div class="card-stats text-center mt-2">
-                                <i class="fa-solid fa-video me-1"></i> 243
-                                <i class="fa-solid fa-phone ms-3 me-1"></i> 111
-                                <i class="fa-solid fa-globe ms-3 me-1"></i> 32
-                              </div>
-                              <div class="card-faaliyet">
-                                <ul>
-                                    <li><a href="#">Depresyon</a></li>
-                                    <li><a href="#">Bağımlılık</a></li>
-                                    <li><a href="#">Kaygı</a></li>
-                                    <li><a href="#">İlişki Sorunları</a></li>
-                                    <li><a href="#">Panik Bozukluk</a></li>
-                                </ul>
-                              </div>
-                              <div class="card-fiyat d-flex justify-content-between">
-                                <div>Minimum Tutar</div>
-                                <div class="fw-bold">
-                                    <span class="text-secondary text-decoration-line-through me-1 fw-normal">165</span>
-                                    ₺ 123,75/Seans
-                                </div>
-                              </div>
-                              <a href="#" class="btn btn-lacivert w-100 mt-5 text-white">Detaylar</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card position-relative">
-                                <img width="96" height="96" class="online-border" decoding="async" loading="lazy" src="assets/uploads/ahu-basak-abali.jpg" alt="Avukat Ahmet Metehan Sivrikaya" aria-labelledby="Avukat Ahmet Metehan Sivrikaya" />
-                                <div class="online-text">Çevrimiçi</div>
-                            
-                            <div class="card-body">
-                              <h5 class="card-title">Deneme</h5>
-                              <div class="text-center">
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                                <img src="assets/svg/star.svg" alt="star" width="20" />
-                              </div>
-                              <div class="card-unvan">Avukat</div>
-                              <div class="card-stats text-center mt-2">
-                                <i class="fa-solid fa-video me-1"></i> 243
-                                <i class="fa-solid fa-phone ms-3 me-1"></i> 111
-                                <i class="fa-solid fa-globe ms-3 me-1"></i> 32
-                              </div>
-                              <div class="card-faaliyet">
-                                <ul>
-                                    <li><a href="#">Depresyon</a></li>
-                                    <li><a href="#">Bağımlılık</a></li>
-                                    <li><a href="#">Kaygı</a></li>
-                                    <li><a href="#">İlişki Sorunları</a></li>
-                                    <li><a href="#">Panik Bozukluk</a></li>
-                                </ul>
-                              </div>
-                              <div class="card-fiyat d-flex justify-content-between">
-                                <div>Minimum Tutar</div>
-                                <div class="fw-bold">
-                                    <span class="text-secondary text-decoration-line-through me-1 fw-normal">165</span>
-                                    ₺ 123,75/Seans
-                                </div>
-                              </div>
-                              <a href="#" class="btn btn-lacivert w-100 mt-5 text-white">Detaylar</a>
-                            </div>
-                          </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselAvukatlar" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselAvukatlar" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </section>
+      <a class="anchor" id="nasil-calisir"></a>
       <!-- ---------- NASIL ÇALIŞIR ------------ -->
-      <section class="nasil-calisir mt-100">
+      <section class="nasil-calisir">
         <h2 class="text-center">Online Görüşme Nasıl Oluşturulur?</h2>
         <div class="row mt-50">
-          <div class="col-lg-3">
-            <img src="assets/svg/step1.svg" alt="Avukatını Seç" width="70" />
+          <div class="col-lg-3 nasil-item">
+            <img src="assets/img/choose-lawyer.svg" alt="avukatını seç" width="56" />
             <p class="fw-bold mt-3">1. Avukatını Seç</p>
-            <p>Sistemimizdeki Avukatların uzmanlık alanlarını ihtiyacına göre filtreleyebilir, eğitim ve sertifikalarını inceleyerek sana en uygun avukatı seçebilirsin.
+            <p>Sistemimizdeki Avukatların çalışma ve uzmanlık alanlarını inceleyerek size en uygun Avukatı seçebilirsiniz.              
             </p>
           </div>
-          <div class="col-lg-3">
-            <img src="assets/svg/step2.svg" alt="Görüşmeni Planla" width="70" />
+          <div class="col-lg-3 nasil-item">
+            <img src="assets/svg/calendar.svg" alt="Görüşmeni Planla" width="56" />
             <p class="fw-bold mt-3">2. Görüşmeni Planla</p>
-            <p>Sesli ya da görüntülü görüşebilir, görüşme süresine karar verebilirsin. Hemen başlayabilir veya sana en uygun tarihe randevunu oluşturabilirsin.
+            <p>Görüntülü yada sesli olarak görüşebilir, görüşme süresine karar
+              verebilirsiniz. Görüşmeye hemen başlayabilir veya size en uygun
+              tarihe randevu oluşturabilirsiniz.              
             </p>
           </div>
-          <div class="col-lg-3">
-            <img src="assets/svg/step3.svg" alt="Ödemeni Tamamla" width="70" />
+          <div class="col-lg-3 nasil-item">
+            <img src="assets/svg/credit-card-12.svg" alt="Ödemeni Tamamla" width="56" />
             <p class="fw-bold mt-3">3. Ödemeni Tamamla</p>
-            <p>Online olarak banka/kredi kartı ya da cüzdan bakiyen ile ödeme seçeneklerinden birini tercih ederek güvenli ve hızlı bir şekilde ödemeni tamamlayabilirsin.
+            <p>Online olarak banka kartı yada kredi kartı ile güvenli ve hızlı bir şekilde ödemenizi tamamlayabilirsiniz.              
             </p>
           </div>
-          <div class="col-lg-3">
-            <img src="assets/svg/step4.svg" alt="Görüşmeye Başla!" width="70" />
-            <p class="fw-bold mt-3">2. Görüşmeye Başla</p>
-            <p>Randevu saatinde, sisteme giriş yaparak görüşmeye başlayabilirsin. HiDoctor uygulaması ya da web sitemiz üzerinden görüşmeni gerçekleştirebilirsin.
+          <div class="col-lg-3 nasil-item">
+            <img src="assets/svg/video-chat-line-1.svg" alt="Görüşmeye Başla!" width="56" />
+            <p class="fw-bold mt-3">4. Görüşmeye Başla</p>
+            <p>Randevu saatinizde SMS yoluyla tarafınıza gelen linki üzerinden sisteme giriş yaparak cep telefonunuz yada bilgisayarınızla görüşmenizi gerçekleştirebilirsiniz.              
             </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="nasil-calisir-sol-desen"></div>
+    <div class="nasil-calisir-sag-desen"></div>
+  </div>
+  <div class="content">
+
+    <section class="sistem-hakkinda mt-200 position-relative">
+      <div class="container ">
+      <div class="row mt-3">
+        <div class="col-md-4 col-lg-6 text-center position-relative" data-aos="fade-down">
+          <div class="ozellik-img">
+            <img src="assets/img/cep-tel-goruntulu3.png" alt="Online Avukat Hakkında" height="700" />
+          </div>
+          <!-- <p class="text-start small pt-3 px-5">Hukuki danışmanlık ücretleri, Türkiye Barolar Birliği tarafından yıllık olarak belirlenen "Avukatlık Asgari Ücret Tarifesi" üzerinden hesaplanmaktadır.<br /></p> -->
+        </div>
+        <div class="col-md-8 col-lg-6" data-aos="fade-up">
+          <h2 class="text-center mb-4">Online Danışmanlık Sistemi Özellikleri</h2>
+          <div class="row">
+            <div class="col-2"><i class="fa-solid fa-laptop"></i></div>
+            <div class="col-10">
+              Bilgisayar, tablet ve mobil cihazlardan herhangi bir eklenti indirmenize gerek olmaksızın sistemi kullanabilirsiniz.
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-2"><i class="fa-solid fa-eye-slash"></i></div>
+            <div class="col-10">
+              Görüşmeler esnasında ses veya görüntü kaydı alınmamaktadır.
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-2"><i class="fa-solid fa-video-slash"></i></div>
+            <div class="col-10">
+              Görüşme esnasında görüntünüzü gizleyebilirsiniz.
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-2"><i class="fa-solid fa-money-bill-transfer"></i></div>
+            <div class="col-10">
+              Randevunuzu 30 dakika öncesine kadar iptal edip ödemenizin iadesini sağlayabilirsiniz.
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-2"><i class="fa-solid fa-lock"></i></div>
+            <div class="col-10">
+              256Bit SSL ile korunan sitemizde ödemenizi ve görüşmelerinizi güvenle gerçekleştirebilirsiniz.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sistem-hakkinda-sol-desen"></div>
+    <div class="sistem-hakkinda-sag-desen"></div>
+    </section>
+
+    <div class="container position-relative">
+      <a class="anchor" id="avukatlar"></a>
+      <section class="avukatlar mt-100">
+        <h1 class="text-center fw-bold">AVUKATLAR</h1>
+        <div class="container">
+          <div class="filtre-satir">
+            <div class="filtre-alan">
+              <label for="txtKonu" class="form-label">Konuya Göre Filtre: </label>
+              <input type="text" class="form-control filtre-genislik d-inline" id="txtKonu" placeholder="Konu / Çalışma Alanı" onkeyup="filtrele()">
+              <div id="sonuc"></div>
+            </div>
+          </div>
+          <!-- ----------- 1. Avukat -------------- -->
+          <div class="row mt-4 avukat-satir" data-category="miras,gayrimenkul,ticaret,borçlar" data-keywords="ticaret hukuku, sözleşmeler hukuku, borçlar hukuku, gayrimenkul hukuku, kamulaştırma hukuku, miras hukuku,  idare hukuku, vergi hukuku, iş hukuku, icra ve iflas hukuku, icra hukuku,icra avukatı,ticari işletme hukuku, şirketler hukuku, kıymetli evrak, taşıma hukuku, sigorta hukuku, ticari iş, tacir, teselsül karinesi, donatma iştiraki, fatura ve teyit mektubu, ticari satış ve mal değişimi, tescile davet ve ceza, ticaret unvanı, ücret isteme hakkı, marka olabilecek işaretler, tescil edilemeyecek işaretler, haksız rekabet, acentelik, simsarlık sözleşmesi, ticari temsilci, cari hesap, komisyon sözleşmesi, emre yazılı kıymetli evrak, nama yazılı kıymetli evrak, hamile yazılı kıymetli evrak, poliçe, çek, bono, senet, ibraz süreleri, ciro, protesto, teselsül, kollektif şirket, anonim şirket, limited şirket, kooperatif, sermayesi paylara bölünmüş komantid şirket, iflasa tabi olma, basiretli bir iş adamı, ticari dava, dürüstlük kuralına aykırı reklamlar, ticari defter, ticari defterlerin delil niteliği, acente, adi ortaklık, yönetim kurulu, azınlık pay sahipleri, tasfiye memurları, kayyım, lehtar, bilanço, ayrılma akçesi, birleşme sözleşmesi, alıcının temerrüdü, ticaretten yasaklı olma, kefalet, ticari işletmenin devri, ayıplı mal, marka hakkına tecavüz, iflasa tabi olma, taşınır rehninin terkini, sevk irsaliyesi,miras bırakan, mirasın geçmesi, saklı pay, saklı pay oranları, miras payı, mirasın geçmesi, veraset ilamı, mirasçılık belgesi, vasiyet, vasiyetname, resmi vasiyetname, el yazılı vasiyetname, sözlü vasiyetname, vasiyetnamenin iptali, vasiyetten dönme, mirasın intikali, mirasçı olabilmenin şartları, saklı payın ihlali, miras sözleşmesi, ivazlı miras sözleşmesi, ivazsız miras sözleşmesi, mirastan feragat, mirasçılıktan çıkarma, mirastan yoksunluk, reddi miras, mirasın reddi, tenkis davası, denkleştirme, bağışlama, karşılıksız kazandırma, muris muvazaası, mirastan mal kaçırma, annenin miras payı, eşin miras payı, çocukların miras payı, kardeşin miras payı, ölüme bağlı tasarruf, sağlararası kazandırma, evlilik dışı çocuk mirasçı mıdır, evlatlığın mirasçılığı, yasal mirasçı, atanmış mirasçı, tereke, terekenin paylaştırılması, zümre sistemi, mirastan yoksunluk sebepleri, vasiyetnamenin açılması, miras ortaklığı, elbirliği mülkiyet, müteseslsil sorumluluk, murisin vergi borçları, murisin para cezaları, yabancıların miras hakkı, vasiyet alacaklısı, vasiyet borçlusu, mirasın açılması, ortaklığın giderilmesi, ölünceye kadar bakma,taşınmaz, kira kontratı, kira sözleşmesi, ihtiyaç nedeniyle tahliye davası, kat karşılığı inşaat sözleşmesi, müteahhit, müteahhide karşı tazminat davası, kat mülkiyeti nedir, kat irtifakı, devre mülk, yönetim planı nedir?,  kat malikleri kurulu, depozito, intifa hakkı, şufa hakkı, iskan, ipotek, ipoteğin kaldırılması davası, rehin, izale-i şuyu, aile konutu, aidat, arsa, aynen taksim, bağımsız bölüm, ortak alan, ecrimisil, elbirliği mülkiyeti, irtifak hakkı, kadastro, kat maliki, kentsel dönüşüm, kira şerhi, malik, kiracı, müşterek mülkiyet, muvazaalı satış, oturma ruhsatı, rayiç bedel, rüçhan hakkı, ön alım hakkı, satış vaadi sözleşmesi, tapu, tarım arazisi, tapu ve kadastro müdürlükleri, tahliye taahhütnamesi, temlik, terkin, trampa, zilyetlik, tapu iptal davası, ortaklığın giderilmesi davası, bina, tescil, müdahalenin men-i davası, iş yeri kira sözleşmesi, oturma hakkı, üst hakkı, geçit hakkı, bilirkişi, emsal, haksız işgal, tapu sicili, tapu siciline güven ilkesi, tahliye talepli icra takibi, iki haklı ihtar nedeniyle tahliye davası, kira tespit davası, kira farklı alacağı, kiracının temerrüt nedeniyle tahliyesi, kira bedelinin eksik ödenmesi, istihkak, konut üzerindeki banka ipoteğinin kaldırılması, kat karşılığı inşaat sözleşmesinin feshi, kentsel dönüşüm kararı, tasarrufun iptali davası, dövizle sözleşme yapma yasağı, inşaat veya tadilat nedeniyle kiracının tahliyesi, depozito bedelinin iadesi, fahiş aidat bedeline itiraz, arsa payının yeniden düzenlenmesi,ipotek tesisi, tapu siciline güven, alacak hakkı, ipotekli taşınmaz, aile konutunda ipotek, rehin hakkı, paraya çevirme, eşin rızası, ipoteğin kaldırılması, ipotek fekki, ipotek sözleşmesi, taşınmaz ipoteği, tasarruf yetkisi, ipoteğin kaldırılması, davası, ipoteğin kuruluşu, rehin, rehnin paraya çevrilmesi, ipoteğin kuruluşu, ipotekte belirlilik ilkesi, inşaatçı ipoteği, lex commissoria yasağı, ipoteğin sona ermesi, dövizle kira sözleşmesi, kira sözleşmesi, kira kontratı, gayrimenkul kiralanması, taşınmaz kirası, taşınır kirası, ev kirası, konut kirası, işyeri kirası, dövizle sözleşme yapma yasağı, iki haklı ihtar nedeniyle tahliye davası, kiracının kirasını tam ve zamanında ödememesi, ihtarın yazılı olması, iki farklı kira ayına ilişkin ihtarın olması, tahliye talepli icra takibi, yeniden inşa nedeniyle tahliyenin, kiralananın yıkılıp yeniden inşası, tahliye taahhüdü nedir, boş tahliye taahhüdü,  kiracının tahliye taahhüdüne dayalı icra takibi, depozito nedir, depozitonun geri alınması, aidat nedir?, aidatın ödenmemesi, ihtiyaç nedeniyle tahliye davası,  kira tespit davası nedir?, kira bedelinin uyarlanması davası nedir?, borçlu temerrüdünün şartları nelerdir?, borcun ifası, gecikme tazminatı, temerrüt faizi,  aynen ifa, esaslı yanılma, hata, hile veya korkutma sonucunda irade sakatlığı, kira sözleşmesi düzenlenirken dikkat edilmesi gerekenler, hava parası, cezai şart, muacceliyet, 10 yılı geçen kira sözleşmesinin sona erdirilmesi,kiracı tahliye">
+            <div class="col-12 col-md-2">
+              <div class="card-image text-center position-relative">
+                  <img width="144" height="144" class="online-border img-fluid" decoding="async" loading="lazy" src="assets/img/avukat-tamer-kulacoglu.jpg" alt="Avukat Tamer Kulaçoğlu" aria-labelledby="Avukat Tamer Kulaçoğlu" />
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <h5 class="card-title fw-bold">Tamer Kulaçoğlu</h5>
+              <div class="avukat-unvan">Kurucu Avukat</div>
+              <div class="avukat-aciklama">İstanbul Hukuk Fakültesi'nden 1990 yılında mezun olan Avukat Tamer Kulaçoğlu, avukatlık stajı ve askerlik görevini tamamlamasını müteakip 1993 yılında Kulaçoğlu Hukuk Bürosu'nu kurmuştur.</div>
+              <div class="avukat-faaliyet mt-3">
+                <ul>
+                    <li>Ticaret Hukuku</li>
+                    <li>Borçlar Hukuku</li>
+                    <li>Miras Hukuku</li>
+                    <li>Gayrimenkul Hukuku</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="card-button text-center">
+                <a href="tamer-kulacoglu.html" class="btn btn-tema mt-4 fw-bold px-5 text-white border-detay d-inline-block">Avukat Detayları</a>
+
+                <a href="tamer-kulacoglu.html#musaitlik-takvimi" class="btn btn-yesil mt-4 fw-bold px-5 mt-4 text-white border-detay d-inline-block">Online Danışmanlık</a>
+              </div>
+            </div>
+          </div>
+          <!-- ----------- 2. Avukat -------------- -->
+          <div class="row mt-4 avukat-satir" data-category="idare,vergi,iş,idari,arabuluculuk" data-keywords="ticaret hukuku, sözleşmeler hukuku, borçlar hukuku, gayrimenkul hukuku, kamulaştırma hukuku, aile hukuku,boşanma, idare hukuku, vergi hukuku, iş hukuku, arabuluculuk, miras hukuku,  ihtiyari arabuluculuk, zorunlu arabuluculuk, iş hukuku, tüketici hukukui ticaret hukuku, tüketici hakem heyeti, istisna, ticaret kanunu, dava şartı, uyuşmazlık, işçilik alacakları, işe iade, arabuluculuk son oturum tutanağı, hukuk uyuşmazlıklarında arabuluculuk kanunu, iş kazası, arabuluculukta yetki, arabuluculuk süresi, arabuluculukta taraflar, arabuluculuğun sona ermesi, arabuluculuk anlaşma uzlaşma tutanağı, arabuluculuk bürosu,kıdem tazminatı, ihbar tazminatı, ücret alacağı, fazla mesai ücreti, yıllık izin ücreti, haklı nedenle fesih, işçi, işveren, iş sözleşmesi, işe iade, zorunlu arabuluculuk, emeklilik, ikale sözleşmesi, ücretsiz izin, iş kazası, iş sağlığı ve güvenliği, performans düşüklüğü, kanuni grev, telafi çalışması, iş kanunu, basın iş kanunu, deniz iş kanunu, istifa, istifa eden işçi tazminat alabilir mi?, iş güvencesi, geçerli nedenle fesih, taşeron işçi, asıl işveren, alt işveren, hafta tatili ücreti, ibraname, ücreti ödenmeyen işçinin çalışmama hakkı, ayrımcılık yasağı, rekabet yasağı sözleşmesi, boşta geçen süre ücreti, belirli süreli iş sözleşmesi, belirsiz süreli iş sözleşmesi, çağrı üzerine çalışma, deneme süresi, çalışma koşullarında değişiklik, yeni işverenin sorumluluğu, derhal fesih, yeni iş arama izni, toplu işçi çıkarma, asgari ücret, ubgt ücreti, ulusal bayram genel tatil ücreti, izinde çalışma yasağı, sigorta primleri, ara dinlenmesi, çalışma süreleri, süt izni, özlük dosyası, engelli çalıştırma yükümlülüğü, işkolu, sendika, toplu iş sözleşmesi, toplu iş kanunu, evlilik nedeniyle kıdem tazminatı, lokavt, iş mahkemesi, bordro, değerli konut vergisi, kdv, katma değer vergisi, vergilendirme süreci, vergi incelemesi, pişmanlık, vergi ziyaı, murisin vergi borcu, yürütmenin durdurulması, izaha davet, sahte fatura, vergi kaçakçılığı, vergilendirme, vergi beyannamesi, mükellef, mükerrer vergi, çifte vergi, yoklama fişi, rapor değerlendirme komisyonu, vergi müfettişi, vergi dairesi, ödeme emri, vergi mahkemesi, danıştay, bölge idare mahkemesi, naylon fatura, takdir komisyonu, şüpheli alacak, vergi ihbarnamesi, ceza ihbarnamesi, kurumlar vergisi, gelir vergisi, vergi usul kanunu, gümrük vergisi, tekel vergisi, vergi mahremiyeti, vergi sorumlusu, vergi kesenlerin sorumluluğu, mirasçıların vergi borcu sorumluluğu, tahakkuk fişi, veraset vergisi, intikal vergisi,idari işlem, iptal davası, hizmet kusuru, işyeri kapatma kararı, sınav sonuçlarına itiraz, tam yargı davası, ecrimisil ihbarnamesi, kamulaştırma, yurtdışı çıkış yasağı, vatandaşlık başvurusunun reddi, imar planı, 18. madde uygulaması, disiplin soruşturması, devlet memurları, eş durumundan tayin, mavi kart, yürütmenin durdurulması, idari sözleşme, idari para cezası, kamu ihaleleri, yapı kayıt belgesi, kentsel dönüşüm kararı, riskli yapı, riskli alan, tapu tahsis belgesi, yıkım kararı, vatandaşlıktan çıkma, vatandaşlıktan çıkarma, atama talebi, çifte vatandaşlık, ruhsat talebi, oturma izni, ikamet izni, kat malikleri, ivedi yargılama, düzenleme ortaklık payı kesintisi, dop, sınır dışı kararı, deport, danıştay, bölge idare mahkemesi, dilekçe ret kararı, yıkım kararı, müteahhit ile yapılan anlaşmaya itiraz, arsa payının satılması, parselasyon işlemi, bölge planı, uygulama imar planı, mimari proje, belediye, valilik, bakanlık, işyeri açma ruhsatı, belediye encümen kararı, doçentlik başvurusunun reddi, öğrenci disiplin cezası, olumsuz güvenlik soruşturması, insani ikamet izni, öğrenci ikamet izni, aile ikamet izni, uzun dönem ikamet izni, kısa dönem ikamet izni, idari merci tecavüzü, türk vatandaşlığını yeniden kazanma, çıkma izni, vatandaşlığın genel yolla kazanılması, kamu personeli, atama işlemi,657">
+            <div class="col-12 col-md-2">
+              <div class="card-image text-center position-relative">
+                  <img width="144" height="144" class="online-border img-fluid" decoding="async" loading="lazy" src="assets/img/av-serkan-kartal-profile.jpg" alt="Avukat Serkan Kartal" aria-labelledby="Avukat Serkan Kartal" />
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <h5 class="card-title fw-bold">Serkan Kartal</h5>
+              <div class="avukat-unvan">Ortak Avukat</div>
+              <div class="avukat-aciklama">2000 yılında Marmara Üniversitesi Hukuk Fakültesi'nden mezun olan Avukat Serkan Kartal,  İstanbul Barosuna kayıtlı avukat olarak Kulaçoğlu Hukuk Bürosu'nda Yönetici – Ortak Avukat olarak çalışmalarına devam etmektedir.</div>
+              <div class="avukat-faaliyet mt-3">
+                <ul>
+                  <li>İş Hukuku</li>
+                  <li>Vergi Hukuku</li>
+                  <li>İdare Hukuku</li>
+                  <li>Arabuluculuk ve Uzlaşma</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="card-button text-center">
+                <a href="serkan-kartal.html" class="btn btn-tema mt-4 fw-bold px-5 text-white border-detay d-inline-block">Avukat Detayları</a>
+
+                <a href="serkan-kartal.html#musaitlik-takvimi" class="btn btn-yesil mt-4 fw-bold px-5 mt-4 text-white border-detay d-inline-block">Online Danışmanlık</a>
+              </div>
+            </div>
+          </div>
+          <!-- ----------- 3. Avukat -------------- -->
+          <div class="row mt-4 avukat-satir" data-category="ceza,idare,bilişim" data-keywords="kamulaştırma hukuku, ceza hukuku, bilişim hukuku, marka ve rekabet hukuku, idare hukuku, vergi hukuku, iş hukuku,marka hukuku,bitcoin, kripto para, dijital para, akıllı sözleşme, dijital kimlik, blockchain, smart contract, bilişim sektörü, dijital oylama, dijital pasaport, kripto varlıklar, sosyal medya, sanal içerik paylaşımı, sanal paylaşım,  sanal zorbalık, sahte sosyal medya hesapları, internet yoluyla hakaret suçu, internet yoluyla tehdit, twitter, ınstagram, facebook, failin ip adresi,  kişilik haklarına saldırı, suça konu paylaşım, endüstriyel tasarım, web site tasarımlarının kopyalanması, internet sitesinin içeriği, internet sitesi tasarımı, internet sitesinin tescili, internet sitesinin içerik kısmı, umuma arz hakkı, erişimin engellenmesi, alan adından erişimin engellenmesi, ip adresinden erişimin engellenmesi, içeriğe erişimin engellenmesi,url, bilişim sistemine hukuka aykırı olarak girmek veya orada kalmaya devam etmek, bilişim sisteminin işleyişini engellemek veya bozmak, bilişim sistemindeki verileri bozmak, yok etmek, değiştirmek veya erişilmez kılmak, bilişim sistemine veri yerleştirmek veya bilişim sisteminde var olan verileri başka bir yere göndermek, başkasına ait banka veya kredi kartlarını kötüye kullanmak, içerik sağlayıcı, kişilik haklarının ihlal edilmesi,  özel hayatın gizliliğinin ihlal edilmesi, whatsapp mesajlarının mahkemece delil olarak kabul edilmesinin şartları, sms mesajının veya aramanın delil niteliği, kişisel veri nedir? kişisel verilerin kaydedilmesi, verileri hukuka aykırı olarak verme veya ele geçirme, cinsel taciz suçu nedir?, cinsel taciz suçunun internet yoluyla işlenmesi, suçu ve suçluyu övme suçu nedir?, halkı kin ve düşmanlığa tahrik suçu, halkın bir kesimini aşağılama suçu, ip adresi suçlunun tespiti için yeterli midir?, başkasına ait sosyal medya hesabına izinsiz girilmesi suç mudur?,zimmet suçu, resmi belgede sahtecilik suçu, özel belgede sahtecilik suçu ve cezası yağma, kasten birini öldürmek, taksirle yaralama, taksir, gasp, hırsızlık, dolandırıcılık, adli yardım, uzlaştırma, infaz, hükmün açıklanmasının geriye bırakılması, denetimli serbestlik, mağdur, manevi unsur, maddi unsur, illiyet bağı, soruşturma, kovuşturma, özel hayatın gizliliği ihlal suçu, ceza, hakaret suçu ve cezası, kişiler arasındaki konuşmaların dinlenmesi ve kayda alınması, kişisel verilerin kaydedilmesi, verileri hukuka aykırı olarak verme veya ele geçirme, verileri yok etmeme, haberleşmenin gizliliği ihlal suçu, mala zarar verme, güveni kötüye kullanma suçu ve cezası, bilişim sistemine girme, banka veya kredi kartlarının kötüye kullanılması, zimmet suçu, irtikap suçu, irtikap suçunun cezası, rüşvet, görevi kötüye kullanma suçu, yalan tanıklık, suç delillerini yok etme, gizleme veya değiştirme, ses veya görüntülerin kayda alınması, fail, fikri içtima, zincirleme suç, saik, teşebbüs, adli sicil kaydı nasıl silinir?, arşiv kaydının silinmesi, tehdit suçu, nitelikli hal nedir?, kaçakçılık, cezanın ertelenmesi, şikayet, cumhuriyet başsavcılığı, şantaj suçu ve cezası, hakaret suçu ve cezası, sahte sosyal medya hesapları üzerinden hakaret, müdafi, müşteki, sabıka kaydı, suça sürüklenen çocuk, etkin pişmanlık, cinsel taciz suçu, ceza zamanaşımı, adli para cezası, karşılıksız çek keşide etme (düzenleme) suçu, kadına karşı şiddette koruyucu tedbirler, hagb nedir? haberleşmenin gizliliğini ihlal suçu nedir?, konuşmaların dinlenilmesi veya kayda alınması, kayıt altına alma,  ifşa etme yoluyla işlenmesi, haberleşmenin gizliliğini ihlal suçunun cezası, özel hayatın gizliliğini ihlal suçunun cezası, adli sicil kaydı, sabıka kaydı, şikayetten vazgeçme ve etkin pişmanlık, ceza zamanaşımı, genel af, adli para cezaları,  adli sicil arşiv kaydı, resmi belgede sahtecilik suçu ve cezası, sahte resmi belgenin kullanılması, resmi belgeyi bozmak, resmi belgeyi yok etmek veya gizlemek suçu, özel belgede sahtecilik suçu ve cezası, zimmet suçu ve cezası, icbar (zorlama) suretiyle irtikap suçu, ikna suretiyle irtikap suçu, irtikap suçunun cezası, rüşvet alma suçu ve cezası,  tehdit suçunun cezası, şantaj suçunun cezası, görevi kötüye kullanma suçu, güveni kötüye kullanma suçu, çek nedir? karşılıksız çek nedir?, karşılıksız çek keşide etme (düzenleme) suçu, kadına karşı şiddette koruyucu tedbirler, şikâyet hakkı, şikâyetten vazgeçme, soruşturma ne demektir?, kovuşturma ne demektir?, sanığın hakları, sanık kavramı, müdafi – şüpheli ve/veya sanık avukatı, şüpheli ne demek?, tehdit suçu nedir?, tehdit suçunun telefon ve mesaj yoluyla işlenmesi, whatsapp veya telegram yoluyla işlenen tehdit suçu, cinsel taciz suçunda şikâyet ve kovuşturma, hükmün açıklanmasının geri bırakılması (hagb) nedir? düşen hagb kararı,idari işlem, iptal davası, hizmet kusuru, işyeri kapatma kararı, sınav sonuçlarına itiraz, tam yargı davası, ecrimisil ihbarnamesi, kamulaştırma, yurtdışı çıkış yasağı, vatandaşlık başvurusunun reddi, imar planı, 18. madde uygulaması, disiplin soruşturması, devlet memurları, eş durumundan tayin, mavi kart, yürütmenin durdurulması, idari sözleşme, idari para cezası, kamu ihaleleri, yapı kayıt belgesi, kentsel dönüşüm kararı, riskli yapı, riskli alan, tapu tahsis belgesi, yıkım kararı, vatandaşlıktan çıkma, vatandaşlıktan çıkarma, atama talebi, çifte vatandaşlık, ruhsat talebi, oturma izni, ikamet izni, kat malikleri, ivedi yargılama, düzenleme ortaklık payı kesintisi, dop, sınır dışı kararı, deport, danıştay, bölge idare mahkemesi, dilekçe ret kararı, yıkım kararı, müteahhit ile yapılan anlaşmaya itiraz, arsa payının satılması, parselasyon işlemi, bölge planı, uygulama imar planı, mimari proje, belediye, valilik, bakanlık, işyeri açma ruhsatı, belediye encümen kararı, doçentlik başvurusunun reddi, öğrenci disiplin cezası, olumsuz güvenlik soruşturması, insani ikamet izni, öğrenci ikamet izni, aile ikamet izni, uzun dönem ikamet izni, kısa dönem ikamet izni, idari merci tecavüzü, türk vatandaşlığını yeniden kazanma, çıkma izni, vatandaşlığın genel yolla kazanılması, kamu personeli, atama işlemi,657">
+            <div class="col-12 col-md-2">
+              <div class="card-image text-center position-relative">
+                  <img width="144" height="144" class="online-border img-fluid" decoding="async" loading="lazy" src="assets/img/av-erdal-hacioglu.jpg" alt="Avukat Erdal Hacıoğlu" aria-labelledby="Avukat Erdal Hacıoğlu" />
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <h5 class="card-title fw-bold">Erdal Hacıoğlu</h5>
+              <div class="avukat-unvan">Avukat</div>
+              <div class="avukat-aciklama">Avukat Erdal Hacıoğlu 2009 yılında Galatasaray Üniversitesi Hukuk Fakültesinden mezun olmuştur. Hacıoğlu, mezunu olduğu Galatasaray Üniversitesi'nde Kamu Hukuku alanında yüksek lisans eğitimi almıştır.</div>
+              <div class="avukat-faaliyet mt-3">
+                <ul>
+                  <li>Ceza Hukuku</li>
+                  <li>İdare Hukuku</li>
+                  <li>Bilişim Hukuku</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="card-button text-center">
+                <a href="erdal-hacioglu.html" class="btn btn-tema mt-4 fw-bold px-5 text-white border-detay d-inline-block">Avukat Detayları</a>
+
+                <a href="erdal-hacioglu.html#musaitlik-takvimi" class="btn btn-yesil mt-4 fw-bold px-5 mt-4 text-white border-detay d-inline-block">Online Danışmanlık</a>
+              </div>
+            </div>
+          </div>
+          <!-- ----------- 4. Avukat -------------- -->
+          <div class="row mt-4 avukat-satir" data-category="ticaret,borçlar,sözleşmeler,tüketici" data-keywords="ticaret hukuku, sözleşmeler hukuku,borçlar hukuku,bilişim hukuku,aile hukuku,marka ve rekabet hukuku,idare hukuku, vergi hukuku,iş hukuku,icra ve iflas hukuku,marka hukuku,ticari işletme hukuku, şirketler hukuku, kıymetli evrak, taşıma hukuku, sigorta hukuku, ticari iş, tacir, teselsül karinesi, donatma iştiraki, fatura ve teyit mektubu, ticari satış ve mal değişimi, tescile davet ve ceza, ticaret unvanı, ücret isteme hakkı, marka olabilecek işaretler, tescil edilemeyecek işaretler, haksız rekabet, acentelik, simsarlık sözleşmesi, ticari temsilci, cari hesap, komisyon sözleşmesi, emre yazılı kıymetli evrak, nama yazılı kıymetli evrak, hamile yazılı kıymetli evrak, poliçe, çek, bono, senet, ibraz süreleri, ciro, protesto, teselsül, kollektif şirket, anonim şirket, limited şirket, kooperatif, sermayesi paylara bölünmüş komantid şirket, iflasa tabi olma, basiretli bir iş adamı, ticari dava, dürüstlük kuralına aykırı reklamlar, ticari defter, ticari defterlerin delil niteliği, acente, adi ortaklık, yönetim kurulu, azınlık pay sahipleri, tasfiye memurları, kayyım, lehtar, bilanço, ayrılma akçesi, birleşme sözleşmesi, alıcının temerrüdü, ticaretten yasaklı olma, kefalet, ticari işletmenin devri, ayıplı mal, marka hakkına tecavüz, iflasa tabi olma, taşınır rehninin terkini, sevk irsaliyesi,tüketici, tüketici işlemi, tüketicinin korunması, haksız şartlar, malın ayıplı olması, cayma hakkı, banka kredisi, nihai tüketici, ödemenin gecikmesi, taksitli satış, müteahhid, tüketici senetleri, tüketici davalarında arabuluculuk, zorunlu arabuluculuk, banka ipoteği, ayıplı mal, ayıplı maldan sorumluluk, tüketici kredisi, ön ödemeli konut satışı, mesafeli satış sözleşmesi, devre tatil, paket tur, abonelik sözleşmeleri, garanti belgesi, fiyat etiketi, tüketici mahkemesi, tüketici hakem heyeti, parasal sınır, hakem heyeti kararına itiraz, geç teslim, gecikme tazminatı,borçlar hukuku, borçlar kanunu, maddi tazminat, manevi tazminat, gecikme tazminatı, temerrüt, faiz, vade, zamanaşımı, hak düşürücü süre, sözleşmenin ifası, alacak, alacaklı, borçlu, satış sözleşmesi, kira sözleşmesi, eser sözleşmesi, kefalet sözleşmesi, vekalet sözleşmesi, alacağın temliki, cari hesap, sözleşmeden dönme, sözleşmenin feshi, sorumluluk, bağışlama sözleşmesi, ödünç sözleşmesi, hizmet sözleşmesi, şekle aykırılık, kiracı, kiraya veren, tahliye, ihtar, kira bedeli, yeni malik, ihtiyaç nedeniyle tahliye, esaslı onarım, kusur, gecikme tazminatı, temerrüt faizi, olumsuz zarar, menfi zarar, müspet zarar, seçimlik hak, aynen ifa, genel işlem koşulları, irade bozukluğu, fesat, aldatma, korkutma, yanılma, hile, saik hatası, depozito, cezai şart, konut kirası, işyeri kirası, artış oranı, sözleşmenin devri, kefil, müteselsil sorumlu, vekil, tahliye sebepleri, tahliye davası, sözleşmenin kurulması, sözleşme özgürlüğü, aşırı yararlanma, gabin, temsilci, yetkisiz temsilci, ödemezlik defi, borç ilişkisi, kira dönemi, taahhüt, inşaat nedeniyle kiracının tahliyesi, kiracının iki haklı ihtarla tahliyesi, kira bedelinin uyarlanması, kiracı aleyhine cezai şart düzenleme yasağı, kiracı aleyhine ek sözleşme yapma yasağı,ipotek tesisi, tapu siciline güven, alacak hakkı, ipotekli taşınmaz, aile konutunda ipotek, rehin hakkı, paraya çevirme, eşin rızası, ipoteğin kaldırılması, ipotek fekki, ipotek sözleşmesi, taşınmaz ipoteği, tasarruf yetkisi, ipoteğin kaldırılması, davası, ipoteğin kuruluşu, rehin, rehnin paraya çevrilmesi, ipoteğin kuruluşu, ipotekte belirlilik ilkesi, inşaatçı ipoteği, lex commissoria yasağı, ipoteğin sona ermesi, dövizle kira sözleşmesi, kira sözleşmesi, kira kontratı, gayrimenkul kiralanması, taşınmaz kirası, taşınır kirası, ev kirası, konut kirası, işyeri kirası, dövizle sözleşme yapma yasağı, iki haklı ihtar nedeniyle tahliye davası, kiracının kirasını tam ve zamanında ödememesi, ihtarın yazılı olması, iki farklı kira ayına ilişkin ihtarın olması, tahliye talepli icra takibi, yeniden inşa nedeniyle tahliyenin, kiralananın yıkılıp yeniden inşası, tahliye taahhüdü nedir?, boş tahliye taahhüdü,  kiracının tahliye taahhüdüne dayalı icra takibi, depozito nedir?, depozitonun geri alınması, aidat nedir?, aidatın ödenmemesi, ihtiyaç nedeniyle tahliye davası,  kira tespit davası nedir?, kira bedelinin uyarlanması davası nedir?, borçlu temerrüdünün şartları nelerdir?, borcun ifası, gecikme tazminatı, temerrüt faizi,  aynen ifa, esaslı yanılma, hata, hile veya korkutma sonucunda irade sakatlığı, kira sözleşmesi düzenlenirken dikkat edilmesi gerekenler, hava parası, cezai şart, muacceliyet, 10 yılı geçen kira sözleşmesinin sona erdirilmesi,kiracı tahliye">
+            <div class="col-12 col-md-2">
+              <div class="card-image text-center position-relative">
+                  <img width="144" height="144" class="online-border img-fluid" decoding="async" loading="lazy" src="assets/img/erencan-cemrek.jpg" alt="Avukat Erencan Çemrek" aria-labelledby="Avukat Erencan Çemrek" />
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <h5 class="card-title fw-bold">Erencan Çemrek</h5>
+              <div class="avukat-unvan">Avukat</div>
+              <div class="avukat-aciklama">İstanbul Üniversitesi Hukuk Fakültesi'nden 2019 yılı Temmuz ayında "Yüksek Onur Derecesi" ile mezun olan Avukat Erencan Çemrek, başta Ticaret Hukuku, Borçlar Hukuku, ve Sözleşmeler Hukuku olmak üzere, hukukun önemli alanlarında çalışmalar yapmaktadır</div>
+              <div class="avukat-faaliyet mt-3">
+                <ul>
+                  <li>Ticaret Hukuku</li>
+                  <li>Borçlar Hukuku</li>
+                  <li>Sözleşmeler Hukuku</li>
+                  <li>Tüketici Hukuku</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="card-button text-center">
+                <a href="erencan-cemrek.html" class="btn btn-tema mt-4 fw-bold px-5 text-white border-detay d-inline-block">Avukat Detayları</a>
+
+                <a href="erencan-cemrek.html#musaitlik-takvimi" class="btn btn-yesil mt-4 fw-bold px-5 mt-4 text-white border-detay d-inline-block">Online Danışmanlık</a>
+              </div>
+            </div>
+          </div>
+          <!-- ----------- 5. Avukat -------------- -->
+          <div class="row mt-4 avukat-satir" data-category="icra ve iflas,borçlar,aile" data-keywords="sözleşmeler hukuku, borçlar hukuku, aile hukuku-boşanma, iş hukuku, icra ve iflas hukuku,icra hukuku,icra avukatı,ipotek tesisi, tapu siciline güven, alacak hakkı, ipotekli taşınmaz, aile konutunda ipotek, rehin hakkı, paraya çevirme, eşin rızası, ipoteğin kaldırılması, ipotek fekki, ipotek sözleşmesi, taşınmaz ipoteği, tasarruf yetkisi, ipoteğin kaldırılması, davası, ipoteğin kuruluşu, rehin, rehnin paraya çevrilmesi, ipoteğin kuruluşu, ipotekte belirlilik ilkesi, inşaatçı ipoteği, lex commissoria yasağı, ipoteğin sona ermesi, dövizle kira sözleşmesi, kira sözleşmesi, kira kontratı, gayrimenkul kiralanması, taşınmaz kirası, taşınır kirası, ev kirası, konut kirası, işyeri kirası, dövizle sözleşme yapma yasağı, iki haklı ihtar nedeniyle tahliye davası, kiracının kirasını tam ve zamanında ödememesi, ihtarın yazılı olması, iki farklı kira ayına ilişkin ihtarın olması, tahliye talepli icra takibi, yeniden inşa nedeniyle tahliyenin, kiralananın yıkılıp yeniden inşası, tahliye taahhüdü nedir?, boş tahliye taahhüdü,  kiracının tahliye taahhüdüne dayalı icra takibi, depozito nedir?, depozitonun geri alınması, aidat nedir?, aidatın ödenmemesi, ihtiyaç nedeniyle tahliye davası,  kira tespit davası nedir?, kira bedelinin uyarlanması davası nedir?, borçlu temerrüdünün şartları nelerdir?, borcun ifası, gecikme tazminatı, temerrüt faizi,  aynen ifa, esaslı yanılma, hata, hile veya korkutma sonucunda irade sakatlığı, kira sözleşmesi düzenlenirken dikkat edilmesi gerekenler, hava parası, cezai şart, muacceliyet, 10 yılı geçen kira sözleşmesinin sona erdirilmesi,kiracı tahliye,Evlilik, boşanma davası, nafaka, velayet hakkı, mal paylaşımı, katılma alacağı, mal rejimi, evlilik birliği, kişisel mal, evliliğin iptali, edinilmiş mal, mal ortaklığı, mal ayrılığı, boşanmada tazminat, boşanmada manevi tazminat, boşanmada maddi tazminat, iştirak nafakası, yoksulluk nafakası, tedbir nafakası, boşanma sebepleri, alkol bağımlılığı nedeniyle boşanma, uyuşturucu bağımlılığı nedeniyle boşanma, şiddetli geçimsizlik nedeniyle boşanma, evlilik birliğinin temelinden sarsılması, madde bağımlılığı, zina nedeniyle boşanma, aldatma nedeniyle boşanma, terk nedeniyle boşanma, kusurlu eş, eşin kusuru, sadakatsizlik, kadına şiddet, eşe şiddet, kumar bağımlılığı nedeniyle boşanma, ekonomik şiddet nedeniyle boşanma, fiziksel şiddet nedeniyle boşanma, psikolojik şiddet nedeniyle boşanma, kumarbaz eş, fahiş nafaka kararı, süresiz nafaka, nafakanın kaldırılması, nafakaya hükmedilmesi, çocuk için nafaka, nafaka miktarı tespiti, nafakanın azaltılması, müşterek çocuk, nafaka için icra takibi, tanıma, tenfiz, çocukla kişisel ilişki kurulması, evliliğin geçersiz olması, namus davası, dna testi, babalık davası, tanıma davası, soy bağı, soybağı, nesebin reddi, aile konutu, dini nikah, imam nikahı, düğünde takılan takılar, nişanda takılan takılar, resmi nikah, tanıma, tanımanın iptali, evlilik dışı çocuk, anlaşmalı boşanma, boşanma protokolü, anlaşmalı boşanma sözleşmesi, sağ kalan eş, ortak velayet, çalışan eş, velayetin değiştirilmesi, çocuğun velayeti kime verilir, evlilik sözleşmesi, sağ kalan eşin mirasçılığı,cebri icra, alacaklı, borçlu, cüzi icra, külli icra, icra daireleri, icra dairesinin zor kullanma yetkisi, icra mahkemesinin kararlarına karşı kanun yoluna başvuru, şikayet, icra ve iflas hukukunda tebligat, icrada süreler, icra takip giderleri ve vekalet ücreti, ilamsız icra, ilamsız icrada yetki, yetki itirazı, genel haciz yoluyla takip, para alacakları, teminat alacakları, takip talebi, ödeme emri, mal beyanı, ödeme emrine itiraz edilmesi, imzaya itiraz, borca itiraz, gecikmiş itiraz, itirazın iptali davası, itiraz kaldırılması davası, itirazın kesin kaldırılması, itirazın geçici kaldırılması, icra takibinin iptali ve taliki, haciz, haciz talebi, haczedilemeyen mal hak ve alacaklar, taşınır haczi, taşınmaz haczi, hacze iştirak, hacizde istihkak davaları, satış talebi, ihalenin feshi, aciz belgesinin düzenlenmesi, menfi tespit ve istirdat davaları, kambiyo senetlerine özgü haciz yoluyla takip, kiralanan taşınmazın tahliyesi, ilamlı icra, ilamlı icrada yetki, ilam ve ilam niteliğinde belgeler, ilamlı icrada takip talebi, icra emri, icranın geri bırakılması, rehnin paraya çevrilmesi yoluyla takip, ihtiyati haciz, iflas hukuku, iflasa tabi kişiler, iflas takip talebi, iflas ödeme emri, iflas davası, iflas kararı, kambiyo senetlerine mahsus iflas yoluyla takip, iflasın borçlu bakımından sonuçları, iflas tasfiyesi, iflasın kaldırılması, iflasın kapanması, konkordato hukuku, konkordato talep edebilecek kişiler, geçici mühlet süresi, alacaklılar kurulu, konkordato komiseri, konkordatonun tasdiki, konkordatonun feshi, tasarrufun iptali davası, icra ve iflas suçları">
+            <div class="col-12 col-md-2">
+              <div class="card-image text-center position-relative">
+                  <img width="144" height="144" class="online-border img-fluid" decoding="async" loading="lazy" src="assets/img/emin-ulusoy.jpg" alt="Avukat Emin Ulusoy" aria-labelledby="Avukat Emin Ulusoy" />
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <h5 class="card-title fw-bold">Emin Ulusoy</h5>
+              <div class="avukat-unvan">Avukat</div>
+              <div class="avukat-aciklama">İstanbul Üniversitesi Hukuk Fakültesi’nden 2019 Yılında "Yüksek Onur Derecesi" ile bölüm 4.sü olarak mezun olan Avukat Emin Ulusoy, başta Aile Hukuku, Borçlar Hukuku ve İcra İflas Hukuku olmak üzere, hukukun önemli alanlarında çalışmalar yapmaktadır.</div>
+              <div class="avukat-faaliyet mt-3">
+                <ul>
+                  <li>İcra ve İflas Hukuku</li>
+                  <li>Borçlar Hukuku</li>
+                  <li>Aile Hukuku</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="card-button text-center">
+                <a href="emin-ulusoy.html" class="btn btn-tema mt-4 fw-bold px-5 text-white border-detay d-inline-block">Avukat Detayları</a>
+
+                <a href="emin-ulusoy.html#musaitlik-takvimi" class="btn btn-yesil mt-4 fw-bold px-5 mt-4 text-white border-detay d-inline-block">Online Danışmanlık</a>
+              </div>
+            </div>
+          </div>
+          <!-- ----------- 6. Avukat -------------- -->
+          <div class="row mt-4 avukat-satir" data-category="ticaret,borçlar,gayrimenkul" data-keywords="ticaret hukuku, deniz ticaret hukuku, sözleşmeler hukuku, borçlar hukuku, gayrimenkul hukuku, kamulaştırma hukuku, miras hukuku,  bilişim hukuku, marka ve rekabet hukuku, idare hukuku, iş hukuku, icra ve iflas hukuku,gemi sicili, gemi mülkiyeti, gemi ipoteği, gemi alacaklısı hakkı, donatan, donatma iştiraki, gemi adamları, navlun, denizaşırı satışı, denizyolu taşımacılığı, konşimento, türk bayrağı çekme hakkı, çarter sözleşmesi, kırkambar sözleşmesi, taşıyanın sorumluluğu, müşterek avarya, çatma, kurtarma ve yardım, zıya ve hasar, starya, yükleme ve boşaltmaya hazır olma, limanın dolu veya meşgul olması hali, taşıyanın kusuru, süresterya süresi,  sürestarya parası, hapis hakkı, asıl ve alt taşıma ilişkisi, taşıtan,  gemi acenteliği, gemi jurnali, deniz raporu, gemi tutuklaması, deniz kazaları, taşıma senedi, tehlikeli eşya, ambalaj ve işaret, gönderenin kusursuz sorumluluğu, taşıma ve teslim engelleri, taşıma komisyonculuğu sözleşmesi, geminin bayrağı, gemi tasdiknamesi, bayrak şahadetnamesi, tescili caiz gemiler, türk uluslararası gemi sicili, sicile kayıtlı olan gemilerin rehni, sigorta tazminatı, rotadan sapma, zaman çarteri partisi, mesafe navlunu, eşya kurtarma,ticari işletme hukuku, şirketler hukuku, kıymetli evrak, taşıma hukuku, sigorta hukuku, ticari iş, tacir, teselsül karinesi, donatma iştiraki, fatura ve teyit mektubu, ticari satış ve mal değişimi, tescile davet ve ceza, ticaret unvanı, ücret isteme hakkı, marka olabilecek işaretler, tescil edilemeyecek işaretler, haksız rekabet, acentelik, simsarlık sözleşmesi, ticari temsilci, cari hesap, komisyon sözleşmesi, emre yazılı kıymetli evrak, nama yazılı kıymetli evrak, hamile yazılı kıymetli evrak, poliçe, çek, bono, senet, ibraz süreleri, ciro, protesto, teselsül, kollektif şirket, anonim şirket, limited şirket, kooperatif, sermayesi paylara bölünmüş komantid şirket, iflasa tabi olma, basiretli bir iş adamı, ticari dava, dürüstlük kuralına aykırı reklamlar, ticari defter, ticari defterlerin delil niteliği, acente, adi ortaklık, yönetim kurulu, azınlık pay sahipleri, tasfiye memurları, kayyım, lehtar, bilanço, ayrılma akçesi, birleşme sözleşmesi, alıcının temerrüdü, ticaretten yasaklı olma, kefalet, ticari işletmenin devri, ayıplı mal, marka hakkına tecavüz, iflasa tabi olma, taşınır rehninin terkini, sevk irsaliyesi,cebri icra, alacaklı, borçlu, cüzi icra, külli icra, icra daireleri, icra dairesinin zor kullanma yetkisi, icra mahkemesinin kararlarına karşı kanun yoluna başvuru, şikayet, icra ve iflas hukukunda tebligat, icrada süreler, icra takip giderleri ve vekalet ücreti, ilamsız icra, ilamsız icrada yetki, yetki itirazı, genel haciz yoluyla takip, para alacakları, teminat alacakları, takip talebi, ödeme emri, mal beyanı, ödeme emrine itiraz edilmesi, imzaya itiraz, borca itiraz, gecikmiş itiraz, itirazın iptali davası, itiraz kaldırılması davası, itirazın kesin kaldırılması, itirazın geçici kaldırılması, icra takibinin iptali ve taliki, haciz, haciz talebi, haczedilemeyen mal hak ve alacaklar, taşınır haczi, taşınmaz haczi, hacze iştirak, hacizde istihkak davaları, satış talebi, ihalenin feshi, aciz belgesinin düzenlenmesi, menfi tespit ve istirdat davaları, kambiyo senetlerine özgü haciz yoluyla takip, kiralanan taşınmazın tahliyesi, ilamlı icra, ilamlı icrada yetki, ilam ve ilam niteliğinde belgeler, ilamlı icrada takip talebi, icra emri, icranın geri bırakılması, rehnin paraya çevrilmesi yoluyla takip, ihtiyati haciz, iflas hukuku, iflasa tabi kişiler, iflas takip talebi, iflas ödeme emri, iflas davası, iflas kararı, kambiyo senetlerine mahsus iflas yoluyla takip, iflasın borçlu bakımından sonuçları, iflas tasfiyesi, iflasın kaldırılması, iflasın kapanması, konkordato hukuku, konkordato talep edebilecek kişiler, geçici mühlet süresi, alacaklılar kurulu, konkordato komiseri, konkordatonun tasdiki, konkordatonun feshi, tasarrufun iptali davası, icra ve iflas suçları,markanın hükümsüzlüğü, markanın tescili, türk patent ve marka kurumu, fikri hak, sınai hak, taklit, muhtemel tecavüzün önlenmesi davası, eser, icra, fonogram, yapım, eser sahibi, usulsüz tescil, moda tasarımı, telif hakkı, faydalı model, patent, bilgilenmiş kullanıcı, ortalama tüketici, endüstriyel tasarım, rekabet yasağı, internet sitelerinin tescili, marka iptali davası, garanti markası, ortak marka, hizmet markası, teknik şartname, lisans, kullanım izni, tecavüzün tespiti davası, tecavüzün durdurulması davası, yazılım patenti, metaverse, işaret, sessiz kalma sebebiyle marka hakkının kaybı, yer sağlayıcısı, ayırt edicilik, alan adı, geleneksel alan adı, nft, ticari sır, kullanım sonucu kazanılmış ayırt edicilik, marka iletişimi, uluslararası marka tescili, patent koruması, topluluk marka hukuku, tanımlayıcı marka, esas sicil, ek sicil, ayırt edilemeyecek derecede benzerlik, ticaret unvanı, rekabet hukuku, rekabetin korunması hakkında kanun, algoritma, kişisel veri, rekabet kurumu, dijital veri">
+            <div class="col-12 col-md-2">
+              <div class="card-image text-center position-relative">
+                  <img width="144" height="144" class="online-border img-fluid" decoding="async" loading="lazy" src="assets/img/umutcan-luleci.jpg" alt="Avukat Umutcan Lüleci" aria-labelledby="Avukat Umutcan Lüleci" />
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <h5 class="card-title fw-bold">Umutcan Lüleci</h5>
+              <div class="avukat-unvan">Avukat</div>
+              <div class="avukat-aciklama">İstanbul Üniversitesi Hukuk Fakültesi'nden 2021 yılında "Yüksek Onur Derecesi" ile mezun olan Avukat Umutcan Lüleci, başta Ticaret Hukuku, Marka ve Rekabet Hukuku, İcra ve İflas Hukuku olmak üzere, hukukun önemli alanlarında çalışmalar yapmaktadır.</div>
+              <div class="avukat-faaliyet mt-3">
+                <ul>
+                  <li>Ticaret Hukuku</li>
+                  <li>Deniz Ticaret Hukuku</li>
+                  <li>Marka ve Rekabet Hukuku</li>
+                  <li>İcra ve İflas Hukuku</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="card-button text-center">
+                <a href="umutcan-luleci.html" class="btn btn-tema mt-4 fw-bold px-5 text-white border-detay d-inline-block">Avukat Detayları</a>
+
+                <a href="umutcan-luleci.html#musaitlik-takvimi" class="btn btn-yesil mt-4 fw-bold px-5 mt-4 text-white border-detay d-inline-block">Online Danışmanlık</a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
     </div>  <!-- End of container -->
-
-    <!-- ------------ DANIŞMAN SEÇİMİ --------- -->
-    <section class="danisman-secimi mt-100">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 pt-3 px-4">
-              <h2 class="text-center">Danışmanlarımızı Nasıl Seçiyoruz?</h2>
-              <ul class="mt-4">
-                <li>HiDoctor platformundaki danışmanları seçerken yüksek lisans eğitimini tamamlamış, alanında uzman klinik psikologları aşamalı bir mülakat sürecine tabi tutuyoruz.</li>
-                <li class="mt-3">Mülakat sürecinin ardından HiDoctor Danışman Heyeti tarafından diplomaları ve sertifikaları onaylanmış, deneyimli uzmanlar ile iş birliği yapıyoruz. Bunu sizlere daha güvenli bir hizmet sağlamak amacıyla gerçekleştiriyoruz.</li>
-              </ul>
-              <button class="btn btn-light mt-4 fw-bold">Şimdi Danışman Ol</button>
+    
+    <section class="faq mt-100">
+      <a class="anchor" id="sss"></a>
+      <div class="container">
+        <h3 class="text-center fw-bold p-5">SIK SORULAN SORULAR</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="faq-image position-relative">
+              <img src="assets/img/goruntulu-gorusme-masaustu.jpg" data-aos="zoom-in-down" alt="Online Avukat Görüntülü Görüşme Sık Sorulan Sorular" width="500" height="333" class="img-fluid" />
+              <div class="faq-image1" data-aos="zoom-in-up">
+                <img src="assets/img/goruntulu-gorusme-mobil.jpg" alt="Online Avukat Mobil Görüntülü Görüşme Sık Sorulan Sorular" width="200" height="273" class="img-fluid" />
+              </div>
             </div>
-            <div class="col-lg-6">
-                <img class="img-fluid" decoding="async" loading="lazy" src="assets/uploads/how-do-we-choose-home.png" alt="Danışmanlarımızı Nasıl Seçiyoruz?" aria-labelledby="Danışmanlarımızı Nasıl Seçiyoruz?" />
+          </div>
+          <div class="col-md-8">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseUcret" aria-expanded="true" aria-controls="panelsStayOpen-collapseOUcret">
+                    Online Görüşme Ücreti Ne Kadar?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseUcret" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingUcret">
+                  <div class="accordion-body">
+                    Hukuki danışmanlık ücretleri, Türkiye Barolar Birliği tarafından yıllık olarak belirlenen "Avukatlık Asgari Ücret Tarifesi" üzerinden hesaplanmakta olup 30 dakikalık görüşme ücreti 1200 ₺'dir.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    online.Kulaçoğlu Görüntülü Hukuki Danışmanlık Sistemi Nedir?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                  <div class="accordion-body">
+                    Hukuki danışmanlık ve avukatlık hizmeti ihtiyacınızı, internet erişimizin olduğu heryerde, masaüstü bilgisayarınızdan, dizüstü bilgisayarınızdan, tabletinizden veya cep telefonunuzdan, dilediğiniz gün ve saatte, tercih ettiğiniz Kulaçoğlu Hukuk Bürosu avukatı ile canlı görüntülü görüşme yoluyla karşılamanızı sağlayacak bir platformdur.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    Online Danışmanlık Hizmeti Ücreti Neye Göre Belirlenir?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    online.Kulaçoğlu görüntülü hukuki danışmanlık platformu ile online hukuki danışmanlık hizmeti her yılın başında Resmi Gazete’de yayımlanan güncel TBB Avukatlık Asgari Ücret Tarifesine uygun olarak belirlenen ücret karşılığında sunulmaktadır. Tarifede belirtilen ücretler, hukuki danışmanlık hizmeti karşılığında avukatların talep edebilecekleri asgari ücretler olup, online.Kulaçoğlu üzerinden hukuki danışmanlık hizmeti almak için müvekkil tarafından tercih edilen avukatın yetkinliği ve tecrübesi paralelinde ücretler farklılık gösterebilir. Ücretlerin, ilgili tarifedeki değişikliklere ve sair gereklilere göre uyarlanma hak ve yetkisi münhasıran Kulaçoğlu Hukuk Bürosuna aittir.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    Cep Telefonuyla ya da Tablet ile Görüşmeye Katılabilir Miyim?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body">
+                    online.Kulaçoğlu görüntülü hukuki danışmanlık platformu ile masaüstü bilgisayarınızdan, dizüstü bilgisayarınızdan, tabletinizden veya cep telefonunuzdan görüntülü hukuki danışmanlık ve avukatlık hizmeti alabilirsiniz.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading4">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse4" aria-expanded="false" aria-controls="panelsStayOpen-collapse4">
+                    Avukatımla Nasıl Konuşacağım?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapse4" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading4">
+                  <div class="accordion-body">
+                    online.Kulaçoğlu görüntülü hukuki danışmanlık platformu üzerinden aldığınız randevu gün ve saatinde, avukatınızla bu platform üzerinden video görüşme şeklinde hizmet alabilirsiniz. Yapılan tüm görüşmeler, KVKK mevzuatına uygun şekilde gerçekleştirilmekte olup görüşmelerin ses ve görüntü kaydı alınmamaktadır.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading5">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse5" aria-expanded="false" aria-controls="panelsStayOpen-collapse5">
+                    Görüşme Öncesinde/Sırasında Avukatıma Belge Gönderebilir Miyim?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapse5" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading5">
+                  <div class="accordion-body">
+                    online.Kulaçoğlu hukuki danışmanlık platformu üzerinden, ister randevu oluşturma sürecinde isterse hukuki danışmanlık esnasında karşılıklı olarak belge gönderilebilmektedir. Gönderilen belgeler gerekli olması halinde ve gereklilik devam ettiği sürece yürürlükteki KVKK mevzuatına uygun şekilde depolanmakta, aksi takdirde mevzuata uygun şekilde silinmekte, yok edilmekte ya da anonim hale getirilmektedir. Konu ile ilgili daha detaylı bilgiye <a href="https://online.kulacoglu.av.tr/i/gizlilik-kosullari/8">online.Kulaçoğlu Gizlilik Koşulları</a> metninden ulaşabilirsiniz.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading7">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false" aria-controls="panelsStayOpen-collapse7">
+                    Randevu Saatimden Önce Görüşme Talebimden Vazgeçersem Ücret İadesi Yapılır Mı?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapse7" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading7">
+                  <div class="accordion-body">
+                    Randevu saatinizden 30 dakika öncesine kadar, hiçbir gerekçe göstermenize gerek olmaksızın görüşme talebinizden vazgeçebilirsiniz. Görüşme talebinizden vazgeçme beyanınız Kulaçoğlu Hukuk Bürosuna iletildiğinde derhal ücret iade süreciniz başlatılır. Ödeme yaptığınız bankanıza bağlı olarak birkaç gün içerisinde ödeme yaptığınız hesaba ücret iadeniz yansıtılacaktır.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading8">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse8" aria-expanded="false" aria-controls="panelsStayOpen-collapse8">
+                    online.Kulaçoğlu Hukuki Danışmanlık Sisteminde Kişisel Bilgilerim Güvende Mi?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapse8" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading8">
+                  <div class="accordion-body">
+                    online.Kulaçoğlu görüntülü hukuki danışmanlık platformundaki görüşmeleriniz kesinlikle kaydedilmez. Mesajlarınız da şifreleme yöntemiyle kilitli şekilde korunur. Kendinize dair verdiğiniz bilgiler ve/veya ilgili hukuki danışmanlık hizmeti kapsamında gönderdiğiniz belgeler online.Kulacoglu Gizlilik Koşulları çerçevesinde korunur. Konu ile ilgili daha detaylı bilgiye <a href="https://online.kulacoglu.av.tr/i/gizlilik-kosullari/8">online.Kulacoglu Gizlilik Koşulları</a> metninden ulaşabilirsiniz.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading9">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse9" aria-expanded="false" aria-controls="panelsStayOpen-collapse9">
+                    online.Kulaçoğlu Hukuki Danışmanlık Sistemi Hakkında Daha Detaylı Sorularım Hakkında Sizinle Nasıl İletişime Geçebilirim?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapse9" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading9">
+                  <div class="accordion-body">
+                    Her türlü sorunuz veya geri bildiriminiz için bizimle <a href="mailto:info@kulacoğlu.av.tr">info@kulacoğlu.av.tr</a> adresinden veya 0212 347 00 40 ve <a href="tel:905522001600">0552 200 16 00</a> hatlarından irtibata geçebilirsiniz.
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+      </div>
     </section>
-</div>
+
+</div>  <!-- End of content -->
 
 <footer>
   <div class="container">
   <div class="row">
     <div class="col-lg-4 px-4">
       <div class="footer-logo">
-          <img width="184" height="45" src="assets/img/logo.png" alt="HiDoctor Logo" aria-labelledby="HiDoctor Logo" />
+          <img width="134" height="60" src="assets/img/Kulacoglu-Hukuk-Beyaz-Logo.png" alt="Kulaçoğlu Hukuk Bürosu Logo" aria-labelledby="Kulaçoğlu Hukuk Bürosu Logo" />
       </div>
-      <p class="small mt-3">Binlerce danışanımız güvenle ve zahmetsizce online danışmanlık hizmeti aldı, HiDoctor’la daha iyi hissetmeye başladı.</p>
+      <p class="small mt-3">1993 yılında Avukat Tamer Kulaçoğlu tarafından İstanbul’da kurulan Kulaçoğlu Hukuk Bürosu, Avukatlık ve hukuki danışmanlık hizmeti vermekte ve faaliyet gösterdiği çalışma alanlarında, müvekkillerinin ihtiyaç duydukları hukuki desteğin tespiti ve temini ile sorunlarının çözümlenmesini amaçlamaktadır.</p>
     </div>
 
-    <div class="col-lg-2">
-      <p class="fw-bold">HiDoctor</p>
+    <div class="col-lg-3">
+      <p class="fw-bold">Kulaçoğlu Hukuk Bürosu</p>
       <ul>
-        <li><a href="#">Hakkımızda</a></li>
-        <li><a href="#">Sıkça Sorulanlar</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Kampanyalar</a></li>
+        <li><a href="https://kulacoglu.av.tr/hakkimizda/" target="_blank">Hakkımızda</a></li>
+        <li><a href="index.html#sss">Sık Sorulanlar</a></li>
+        <li><a href="https://kulacoglu.av.tr/blog/" target="_blank">Blog</a></li>
       </ul>
+
     </div>
-    <div class="col-lg-2">
-      <p class="fw-bold">Hizmetler</p>
+    <div class="col-lg-3">
+      <p class="fw-bold">Sözleşmeler ve Politikalar</p>
       <ul>
-        <li><a href="#">Görüntülü Görüşme</a></li>
-        <li><a href="#">Sesli Görüşme</a></li>
-        <li><a href="#">Chat ile Görüşme</a></li>
+        <li><a href="https://online-dev.kulacoglu.av.tr/i/kvkk/7">Açık Rıza Metni</a></li>
+        <li><a href="https://online-dev.kulacoglu.av.tr/i/kvkk/9" target="_blank">KVKK Aydınlatma Metni</a></li>
       </ul>
     </div>
     <div class="col-lg-2">
       <p class="fw-bold">Sosyal Medya</p>
       <ul>
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">Youtube</a></li>
-        <li><a href="#">Linkedin</a></li>
-      </ul>
-    </div>
-    <div class="col-lg-2">
-      <p class="fw-bold">Uygulama İndir</p>
-      <ul>
-        <li><a href="#" class="btn btn-outline-light"><i class="fa-brands fa-app-store"></i> App Store</a></li>
-        <li><a href="#" class="btn btn-outline-light"><i class="fa-brands fa-google-play"></i> Google Play</a></li>
-        <li><a href="#" class="btn btn-outline-light"><i class="fa-solid fa-tablet-screen-button"></i> App Gallery</a></li>
+        <li><span class="btn-social btn-facebook"><a href="https://www.facebook.com/kulacogluhukuk/" rel="me" target="_blank"><i class="fa-brands fa-square-facebook"></i> <span>Facebook</span></a></span></li>
+        <li><span class="btn-social btn-instagram"><a href="https://www.instagram.com/kulacogluhukukburosu" rel="me" target="_blank"><i class="fa-brands fa-square-instagram"></i> <span>Instagram</span></a></span></li>
+        <li><span class="btn-social btn-twitter"><a href="https://twitter.com/kulacogluhukuk" rel="me" target="_blank"><i class="fa-brands fa-square-twitter"></i> <span>Twitter</span></a></span></li>
+        <li><span class="btn-social btn-youtube"><a href="https://www.youtube.com/@kulacogluhukukburosu9431" rel="me" target="_blank"><i class="fa-brands fa-square-youtube"></i> <span>Youtube</span></a></span></li>
+        <li><span class="btn-social btn-linkedin"><a href="https://www.linkedin.com/company/kulacogluhukukburosu/" rel="me" target="_blank"><i class="fa-brands fa-linkedin"></i> <span>Linkedin</span></a></span></li>
       </ul>
     </div>
   </div>
@@ -550,67 +513,24 @@
 </footer>
 <div class="footer-bottom">
   <div class="container">
-    <div class="row">
-      <div class="col-md-3">
-        Gizlilik Sözleşmesi
-        <p class="mt-3">© 2022 HiDoctor Tüm Hakları Saklıdır</p>
+    <div class="row mt-3">
+      <div class="col-md-6">
+        <p class="mt-3">© 2022 Kulaçoğlu Hukuk Bürosu Tüm Hakları Saklıdır</p>
       </div>
-      <div class="col-md-3">
-        <a href="#">HiDoctor Kullanıcı Sözleşmesi</a>
-      </div>
-      <div class="col-md-2">
-        <a href="#">KVKK Aydınlatma Metni</a>
-      </div>
-      <div class="col-md-4">
-          <img class="img-fluid" src="assets/img/footer-payment-method.png" alt="Ödeme Yöntemleri" aria-labelledby="Ödeme Yöntemleri" />
+      <div class="col-md-6 text-end">
+        <picture>
+          <source srcset="assets/img/turkpara_logo-1.webp" type="img/webp">
+          <source srcset="assets/img/turkpara_logo-1.png" type="img/png">
+
+          <img class="img-fluid" src="assets/img/turkpara_logo-1.png" alt="Ödeme Yöntemleri" aria-labelledby="Ödeme Yöntemleri" width="120" />
+        </picture>
+        <a href="https://pos.param.com.tr/Tahsilat/Default.aspx?k=b8b7f8cb-92b5-4d9c-9463-c052409e9128" target="_blank" class="btn-ode mx-5"><i class="fa fa-credit-card-alt pe-2"></i>Ödeme Yap</a>
       </div>
     </div>
   </div>
 </div>
-
-<input type="hidden" id="hdnsecshr" />
-    <!-- Modal -->
-<div class="modal fade" id="locationModal" tabindex="-1" aria-labelledby="locationModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h3 class="modal-title fs-5 text-center" id="locationModalLabel"><i class="fa-solid fa-location-dot fa-2x"></i> <br />Konum Seçiniz</h3>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <ul class="sehirliste">
-            <li class="btn btn-primary rounded-3">İstanbul</li>
-            <li class="btn btn-outline-primary rounded-3">Ankara</li>
-            <li class="btn btn-outline-primary rounded-3">İzmir</li>
-            <li class="btn btn-outline-primary rounded-3">Bursa</li>
-            <li class="btn btn-outline-primary rounded-3">Antalya</li>
-            <li class="btn btn-outline-primary rounded-3">Muğla</li>
-            <li class="btn btn-outline-primary rounded-3">Aydın</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-
-      <!-- Modal -->
-<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h3 class="modal-title fs-5 text-center" id="loginModalLabel">Giriş Yap</h3>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body px-5">
-            <input name="phone" type="text" id="phone" class="rounded-3 w-100"/> 
-            <button type="button" class="btn btn-lacivert w-100 mt-4 text-white d-block py-2">Giriş Yap</button>
-            <p class="mt-4 fs-5 fw-bold">Hesabınız yok mu? <a href="#">Kayıt ol</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-
     <!-- Back to top button -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+    <button onclick="topFunction()" id="myBtn" title="Yukarı Çık"></button>
     <script>
         // Get the button
         let mybutton = document.getElementById("myBtn");
@@ -631,6 +551,45 @@
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
+
+        function filtrele(){
+          var kelime = document.getElementById("txtKonu").value;
+          var avukatlar = document.querySelectorAll(".avukat-satir");
+
+          var key = event.keyCode || event.charCode;
+
+          if( key == 8 || key == 46 )
+          {
+            avukatlar.forEach(av => {
+              av.classList.remove("gizle");
+            });
+          }
+          // içinde aranan kelime geçenleri göster
+          var sayac = 0;
+          avukatlar.forEach(av => {
+            var keys = av.getAttribute("data-keywords");
+            sayac++;
+            document.getElementById("sonuc").innerHTML = "";
+            if(!keys.includes(kelime)){
+              av.classList.add("gizle");
+              sayac--;
+            }
+          });
+          if(sayac==0){
+            document.getElementById("sonuc").innerHTML = "<div class='alert alert-warning mt-3'>" + kelime + " içeren konu veya çalışma alanı ile alakalı avukat bulunamadı.</div>";
+          }
+          else
+          {
+            document.getElementById("sonuc").innerHTML = "<div class='alert alert-success mt-3 filtre-genislik'><span class='fs-4'>" + sayac + "</span> adet avukat bulundu.</div>";
+          }
+          if(kelime.length==0){
+            avukatlar.forEach(av => {
+              av.classList.remove("gizle");
+            });
+            document.getElementById("sonuc").innerHTML = "";
+          }
+        }
+
     </script>
     
     <!-- JavaScript Bundle with Popper -->
@@ -640,9 +599,11 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.js" integrity="sha512-S1KaVll2UTj29SOXML7O4LxU7zEoQhJgnondHE/ZvNrk7H4Rc9TLFKDaWuEzsHmAEkJnWFedc0hcVrpvFTOlwA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <!-- <script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script> -->
-    <script src="assets/js/intlPhoneCodes.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

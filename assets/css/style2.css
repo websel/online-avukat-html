@@ -1,0 +1,116 @@
+:root {
+    --tema: #058a96;
+    --tema2: #01b9ca;
+    --coloredsections: #addce0;
+    --accordion-bg:var(--coloredsections);
+  }
+*{padding:0;margin:0;font-family: 'Arsenal', sans-serif;}
+a{text-decoration: none;}
+/* .mobil-logo{display: none;} */
+.logo{display: block;}
+header{height:580px;background: url('../uploads/slider-1.jpg') no-repeat;background-size: cover}
+header.icsayfa{height:350px;background: url('../img/icsayfa-header.jpg') center center no-repeat;background-size: cover}
+.giris-kutu{position: absolute;bottom: 40px; left:15%;width: 30%;background-color: rgba(0,0,0,0.6);padding:40px 20px;border:solid 3px rgb(110, 109, 109);border-radius: 20px;}
+header.icsayfa .giris-kutu{left:initial; right:15% !important}
+.giris-kutu h3{color: white;}
+.giris-kutu .input-group-text{background: linear-gradient(var(--tema2),var(--tema)) !important;font-size: 1.3rem;padding: 6px 8px !important;}
+.giris-kutu input{font-size: 1.3rem;}
+.logo h1{color:#fff;width: 30%;margin-top:35px;font-size: 2rem;}
+.mobil-logo{background-color: rgba(255,255,255,0.9);}
+.mobil-logo h1{font-size: 1rem !important;}
+.adim-baslik{padding: 30px;text-align: center;padding-top: 45px;font-size: 2rem;font-weight: bold;}
+.adim-kutu:hover .adim-ikon{background: linear-gradient(var(--tema2),var(--tema));}
+
+.adim-kutu{position: relative;border:solid 1px #a4a39f; border-radius: 15px;min-height: 75px;box-shadow: 3px 3px 6px rgba(0,0,0,0.5);}
+.adim-ikon{position: absolute; left: 40%; top:-34px;border:solid 1px #a4a39f;border-radius: 50%;padding:10px;background-color: #fff}
+
+.asamalar{background-color: var(--coloredsections);padding: 80px 0px; margin-top: 100px;}
+.asama-item:hover{background: linear-gradient(var(--tema2),var(--tema));}
+.asama-item:hover .asama-item-text{color: #fff;}
+.asama-satir{display: flex;}
+.asama-item{flex:3;background-color: #fff;border: solid 1px #a4a39f;box-shadow: 3px 4px 3px rgba(0,0,0,0.4);border-radius: 15px;min-height: 150px;padding: 15px 25px;}
+.asama-item-text{font-size: 1.3rem;margin-top:10px}
+/* .asama-ayirac{flex:1;width: 100px;background: url('../img/adim-ayirac.png') no-repeat;background-position: 30px;} */
+.asama-tekli-satir{display: flex;justify-content: flex-end;padding: 25px 100px 25px 0px;margin-top:25px}
+.asama-ayirac{margin:0 auto;padding: 20px;}
+
+.avukatlar .card{box-shadow: 3px 6px 3px rgba(0,0,0,0.4);}
+.card .card-image img{border-radius: 50%; border: solid 4px var(--tema);}
+.card-unvan{font-size: 1.1rem; color:rgb(74,74,74);text-align: center;margin-top:10px;}
+.card-faaliyet ul{list-style: none;padding-left:1rem !important}
+.card-faaliyet ul li{background-color: #eeeded;padding:3px 16px;border-radius: 10px; display: inline-block;margin-top:8px;margin-right:15px;transition: all .4s;-moz-transition: all .4s;-o-transition: all .4s;-webkit-transition: all .4s;cursor: pointer;}
+.card-faaliyet ul li:hover{background-color: var(--tema);}
+.card-faaliyet ul li{color:rgb(0, 0, 0); font-size: .90rem;letter-spacing: 2px}
+.card-faaliyet ul li:hover{color:rgb(255, 255, 255);}
+
+.mt-100{margin-top:100px}
+.mt-75{margin-top:75px}
+.mt-50{margin-top:50px}
+.btn-tema{background-color: var(--tema);}
+.btn-tema:hover{background-color: var(--tema2);}
+.border-detay{border:solid 2px #004a51;}
+
+.carousel-item .card{outline: solid 0px;transition: all .2s;-moz-transition: all .4s;-o-transition: all .4s;-webkit-transition: all .4s;}
+.carousel-item .card:hover {outline:solid 3px var(--tema);box-shadow: 8px 5px 8px;}
+.carousel-item .card:hover .card-image img{border: solid 4px var(--tema2);}
+
+.sistem-hakkinda{background-color: var(--coloredsections);padding: 75px 20px;font-size: larger;}
+.sistem-hakkinda ul li{margin-bottom: 10px;}
+
+.faq img{border-radius: 20px;}
+.faq-image1{position: absolute;top:175px;right:20px;}
+.accordion-button:focus {box-shadow: none;border-color: rgba(0,0,0,.125);}
+.accordion-button{font-weight: bold;}
+.accordion-button:not(.collapsed){background-color: var(--coloredsections) !important;color:#004a51 !important}
+
+footer{background-color: #02707a;padding: 50px 0;color:#fff;margin-top:100px}
+footer a, .footer-bottom a{color:#fff !important}
+footer ul{list-style-type: none;padding-left: 5px;}
+footer ul li{margin-top:6px;}
+.footer-bottom{background-color: #06626a;padding: 8px 0;color:#fff}
+footer .btn-outline-light:hover{color:#000 !important}
+
+.avukat-kutu{background-color: #fafcfc;padding: 35px 20px;border:solid 1px #bebebd;border-radius: 20px}
+.avukat-kutu img{border:solid 4px #0d5e6d;border-radius: 12px}
+.avukat-bilgi-satir{font-size: 1.5rem; margin-bottom: 12px;}
+.avukat-bilgi-satir i{color:var(--tema)}
+.avukat-bilgi-satir a{color:rgb(33,37,41)}
+.avukat-detay{font-size: 1.3rem;line-height: 2rem;}
+
+/* media queries */
+@media screen and (min-width:992px) and (max-width:1199px){
+    header{height: 500px;}
+    .giris-kutu{width: 35%;}
+    .btn-nav-sag{--bs-btn-font-size: .75rem;--bs-btn-padding-x: .25rem !important}
+    .carousel-control-prev{left: -80px !important}
+    .carousel-control-next{right: -80px !important}
+    .adim-kutu{min-height: 170px;}
+.adim-baslik{padding: 15px;font-size: 1.8rem;padding-top:45px}
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    header{height: 400px;}
+    header{background-position: center center;}
+    .giris-kutu{width: 50%;left:5%;}
+    .carousel-control-prev{left: -50px !important}
+.carousel-control-next{right: -50px !important}
+.logo h1{font-size: 1.2rem;margin-top:20px;}
+.adim-kutu{min-height: 170px;}
+.adim-baslik{padding: 15px;font-size: 1.8rem;padding-top:45px}
+}
+@media screen and (max-width:768px){
+    .mobil-logo{display: block;}
+    .logo h1{font-size: 1.2rem;}
+    /* .logo{display: none;} */
+    header{height: 95vh;background-position: 40% center;}
+    .giris-kutu{width: 90%;left:5%;}
+    .carousel-control-prev{left: -50px !important}
+.carousel-control-next{right: -50px !important}
+.asama-satir{flex-direction: column !important;}
+.ayirac-sag svg{transform: rotate(90deg);}
+.ayirac-sol svg{transform: rotate(-90deg);}
+.asama-tekli-satir{justify-content: center;padding: 20px;}
+.asama-item-icon img{width: 32px;}
+.asama-item{padding: 15px;}
+.faq-image{width: 200px !important;margin-bottom:30px}
+.faq-image1{width: 100px !important;top:30px;right:-80px;}
+}
